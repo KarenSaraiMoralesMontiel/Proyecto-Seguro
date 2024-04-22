@@ -11,4 +11,4 @@ Fecha de creación: 22/04/2024
 """
 GASTOS_MEDICOS_MODEL_PATH = "common/model/gastos_medicos_model.pkl"
 INSURANCE_DATA_PATH = "common/data/insurance_data.csv"
-MODEL_DATA_PATH = "common/data/model_data.py"
+MODEL_DATA_PATH = "common/model/model_data.py"
