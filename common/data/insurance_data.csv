@@ -1,0 +1,1001 @@
+Número de póliza,Fecha de inicio,Fecha de vencimiento,Tipo de cobertura,Modelo del coche,Año del coche,Valor asegurado,Deducible,Estado del seguro,Gastos médicos,Daños a terceros
+P000000,2021-04-01,2022-04-01,Cobertura total,Honda Civic,1992,20006,500,Al día,0,1
+P000001,2020-04-12,2021-04-12,Cobertura total,Honda Civic,2017,49188,500,Vencido,0,1
+P000002,2023-01-31,2024-01-31,Cobertura de robo,Ford Focus,1997,21011,600,Al día,1,1
+P000003,2022-09-30,2023-09-30,Cobertura de robo,Subaru Impreza,1992,42243,500,Al día,0,1
+P000004,2022-07-03,2023-07-03,Cobertura de robo,Volkswagen Jetta,2022,35926,700,Al día,0,0
+P000005,2021-07-25,2022-07-25,Responsabilidad civil,Honda Civic,2008,21642,600,Al día,1,1
+P000006,2021-02-23,2022-02-23,Cobertura de robo,Chevrolet Cruze,1994,22115,500,Al día,0,0
+P000007,2020-12-22,2021-12-22,Cobertura total,Toyota Corolla,2003,36481,600,Vencido,1,0
+P000008,2024-09-24,2025-09-24,Cobertura amplia,Volkswagen Jetta,2022,40015,500,Al día,1,1
+P000009,2020-05-10,2021-05-10,Cobertura total,Hyundai Elantra,2020,46378,700,Vencido,1,0
+P0000010,2020-05-02,2021-05-02,Responsabilidad civil,Honda Civic,1996,15570,500,Vencido,1,1
+P0000011,2021-01-18,2022-01-18,Cobertura amplia,Honda Civic,2021,36597,700,Vencido,1,0
+P0000012,2022-06-14,2023-06-14,Cobertura de colisión,Toyota Corolla,2005,36746,500,Al día,1,0
+P0000013,2022-08-10,2023-08-10,Cobertura de robo,Ford Focus,2013,12152,600,Vencido,1,0
+P0000014,2025-08-31,2026-08-31,Responsabilidad civil,Toyota Corolla,2010,34876,600,Vencido,1,1
+P0000015,2020-04-18,2021-04-18,Cobertura total,Mazda 3,1998,42421,600,Vencido,0,1
+P0000016,2022-03-25,2023-03-25,Cobertura de colisión,Toyota Corolla,2012,33568,500,Vencido,1,0
+P0000017,2024-09-14,2025-09-14,Cobertura amplia,Chevrolet Cruze,2016,20053,500,Al día,1,1
+P0000018,2022-06-21,2023-06-21,Cobertura total,Toyota Corolla,2011,31460,500,Al día,1,1
+P0000019,2025-01-13,2026-01-13,Cobertura total,Honda Civic,2021,28095,700,Vencido,0,0
+P0000020,2023-02-13,2024-02-13,Cobertura amplia,Honda Civic,2018,43070,700,Al día,0,1
+P0000021,2020-01-27,2021-01-26,Cobertura de robo,Toyota Corolla,2016,11617,700,Vencido,0,0
+P0000022,2021-10-15,2022-10-15,Cobertura de colisión,Volkswagen Jetta,2010,32764,500,Al día,0,1
+P0000023,2024-09-27,2025-09-27,Cobertura total,Chevrolet Cruze,2013,19126,500,Vencido,1,0
+P0000024,2023-10-25,2024-10-24,Cobertura amplia,Chevrolet Cruze,2008,24669,600,Vencido,1,0
+P0000025,2023-02-12,2024-02-12,Cobertura de robo,Toyota Corolla,2013,30952,700,Vencido,0,1
+P0000026,2021-09-28,2022-09-28,Cobertura total,Toyota Corolla,2011,18923,600,Al día,1,1
+P0000027,2022-05-31,2023-05-31,Cobertura amplia,Toyota Corolla,2016,48189,500,Al día,0,1
+P0000028,2023-10-10,2024-10-09,Cobertura de colisión,Ford Focus,2010,23546,600,Al día,1,1
+P0000029,2021-02-22,2022-02-22,Cobertura total,Volkswagen Jetta,2011,39059,700,Al día,0,0
+P0000030,2021-01-14,2022-01-14,Cobertura de robo,Kia Forte,2011,14457,600,Vencido,1,0
+P0000031,2024-04-05,2025-04-05,Cobertura de colisión,Honda Civic,1996,29223,700,Vencido,1,1
+P0000032,2021-01-31,2022-01-31,Cobertura total,Hyundai Elantra,2001,35338,600,Vencido,0,0
+P0000033,2024-01-10,2025-01-09,Cobertura de robo,Ford Focus,2004,29183,600,Al día,0,0
+P0000034,2023-11-09,2024-11-08,Cobertura amplia,Nissan Sentra,2020,25401,500,Al día,1,0
+P0000035,2022-12-19,2023-12-19,Cobertura de colisión,Ford Focus,1991,28088,600,Al día,0,1
+P0000036,2020-06-26,2021-06-26,Cobertura total,Honda Civic,2000,40395,600,Vencido,0,1
+P0000037,2025-02-24,2026-02-24,Cobertura amplia,Honda Civic,1996,14023,500,Al día,1,1
+P0000038,2021-05-26,2022-05-26,Cobertura de robo,Honda Civic,2010,19061,600,Vencido,1,0
+P0000039,2024-03-30,2025-03-30,Cobertura de robo,Toyota Corolla,1995,25851,700,Vencido,0,1
+P0000040,2020-11-18,2021-11-18,Cobertura de robo,Toyota Corolla,2000,12064,500,Vencido,1,1
+P0000041,2023-04-15,2024-04-14,Responsabilidad civil,Chevrolet Cruze,1996,39004,700,Vencido,1,1
+P0000042,2024-01-21,2025-01-20,Cobertura de robo,Volkswagen Jetta,2009,49476,600,Al día,1,1
+P0000043,2022-02-26,2023-02-26,Cobertura total,Volkswagen Jetta,1990,45226,600,Al día,1,0
+P0000044,2020-10-11,2021-10-11,Cobertura de robo,Toyota Corolla,1991,46918,700,Vencido,0,0
+P0000045,2020-07-06,2021-07-06,Cobertura de robo,Kia Forte,2000,41884,500,Vencido,0,1
+P0000046,2022-07-22,2023-07-22,Cobertura de colisión,Kia Forte,2015,25897,500,Vencido,1,1
+P0000047,2023-03-31,2024-03-30,Cobertura de colisión,Ford Focus,2000,46745,500,Al día,0,1
+P0000048,2020-11-22,2021-11-22,Cobertura de colisión,Honda Civic,1997,39920,500,Al día,1,0
+P0000049,2022-08-11,2023-08-11,Cobertura de robo,Honda Civic,2014,48040,500,Vencido,0,1
+P0000050,2021-02-17,2022-02-17,Cobertura total,Ford Focus,2003,32441,500,Vencido,1,0
+P0000051,2024-04-05,2025-04-05,Cobertura amplia,Honda Civic,2019,23593,600,Vencido,0,1
+P0000052,2023-02-12,2024-02-12,Cobertura amplia,Hyundai Elantra,1992,39219,500,Vencido,1,0
+P0000053,2025-01-31,2026-01-31,Cobertura amplia,Toyota Corolla,2016,22469,500,Vencido,1,0
+P0000054,2024-02-03,2025-02-02,Cobertura amplia,Kia Forte,2014,41510,600,Al día,1,1
+P0000055,2021-10-28,2022-10-28,Cobertura amplia,Toyota Corolla,2004,39579,600,Vencido,0,1
+P0000056,2024-02-25,2025-02-24,Cobertura total,Honda Civic,2018,46029,600,Vencido,0,0
+P0000057,2023-12-26,2024-12-25,Responsabilidad civil,Honda Civic,1990,13373,500,Al día,1,1
+P0000058,2022-05-08,2023-05-08,Cobertura amplia,Volkswagen Jetta,2018,34893,500,Al día,1,0
+P0000059,2022-12-29,2023-12-29,Responsabilidad civil,Toyota Corolla,2010,18977,700,Al día,1,1
+P0000060,2020-10-19,2021-10-19,Cobertura de colisión,Hyundai Elantra,2020,15252,600,Al día,1,0
+P0000061,2021-12-01,2022-12-01,Cobertura de colisión,Toyota Corolla,2005,12434,700,Vencido,1,0
+P0000062,2025-12-27,2026-12-27,Cobertura de colisión,Ford Focus,1998,32708,700,Al día,1,1
+P0000063,2022-09-29,2023-09-29,Cobertura de robo,Subaru Impreza,2002,39272,500,Al día,1,1
+P0000064,2021-10-31,2022-10-31,Cobertura amplia,Mazda 3,2022,39956,600,Vencido,1,1
+P0000065,2025-03-08,2026-03-08,Cobertura total,Toyota Corolla,2018,34574,600,Vencido,1,1
+P0000066,2024-04-03,2025-04-03,Cobertura total,Hyundai Elantra,2004,26008,700,Al día,1,0
+P0000067,2023-01-10,2024-01-10,Cobertura amplia,Nissan Sentra,2003,25757,500,Vencido,1,1
+P0000068,2022-06-18,2023-06-18,Responsabilidad civil,Volkswagen Jetta,2022,42706,700,Vencido,0,0
+P0000069,2023-08-21,2024-08-20,Responsabilidad civil,Toyota Corolla,1994,25295,700,Al día,0,1
+P0000070,2020-08-17,2021-08-17,Cobertura total,Nissan Sentra,2000,47799,700,Vencido,0,0
+P0000071,2022-07-27,2023-07-27,Responsabilidad civil,Toyota Corolla,1990,36617,500,Al día,0,1
+P0000072,2020-05-11,2021-05-11,Cobertura de colisión,Honda Civic,2008,41702,600,Al día,1,1
+P0000073,2023-07-16,2024-07-15,Cobertura total,Toyota Corolla,1991,11087,500,Vencido,0,0
+P0000074,2024-07-01,2025-07-01,Cobertura amplia,Chevrolet Cruze,2006,19035,600,Al día,0,1
+P0000075,2023-01-01,2024-01-01,Cobertura total,Toyota Corolla,2021,43702,600,Vencido,0,0
+P0000076,2020-09-28,2021-09-28,Cobertura de colisión,Toyota Corolla,2018,36944,700,Vencido,0,0
+P0000077,2022-05-14,2023-05-14,Cobertura amplia,Subaru Impreza,2005,49249,500,Vencido,1,0
+P0000078,2023-07-12,2024-07-11,Cobertura de colisión,Hyundai Elantra,2006,34035,600,Al día,1,0
+P0000079,2022-05-20,2023-05-20,Cobertura de colisión,Hyundai Elantra,2009,11306,700,Al día,0,0
+P0000080,2025-08-06,2026-08-06,Cobertura amplia,Nissan Sentra,2021,39661,700,Al día,1,1
+P0000081,2024-06-08,2025-06-08,Cobertura de colisión,Toyota Corolla,1994,49206,600,Vencido,0,1
+P0000082,2025-02-22,2026-02-22,Cobertura de colisión,Volkswagen Jetta,1999,24486,500,Al día,1,1
+P0000083,2021-08-08,2022-08-08,Cobertura total,Chevrolet Cruze,1999,17718,700,Vencido,0,1
+P0000084,2022-12-20,2023-12-20,Cobertura total,Honda Civic,2014,35362,500,Vencido,0,1
+P0000085,2021-07-25,2022-07-25,Cobertura total,Honda Civic,2011,27486,600,Al día,1,0
+P0000086,2022-10-07,2023-10-07,Responsabilidad civil,Nissan Sentra,1997,35475,500,Vencido,0,0
+P0000087,2022-12-12,2023-12-12,Responsabilidad civil,Chevrolet Cruze,2008,12806,500,Al día,0,0
+P0000088,2024-10-20,2025-10-20,Responsabilidad civil,Honda Civic,1994,45027,700,Vencido,0,1
+P0000089,2024-06-23,2025-06-23,Responsabilidad civil,Toyota Corolla,1991,12213,700,Al día,1,0
+P0000090,2024-01-22,2025-01-21,Cobertura de colisión,Chevrolet Cruze,2009,30164,600,Al día,0,1
+P0000091,2022-06-17,2023-06-17,Cobertura total,Volkswagen Jetta,2016,43469,500,Vencido,1,0
+P0000092,2021-07-20,2022-07-20,Responsabilidad civil,Chevrolet Cruze,2011,38041,500,Vencido,0,1
+P0000093,2025-09-18,2026-09-18,Cobertura amplia,Ford Focus,2002,48030,500,Vencido,0,0
+P0000094,2025-07-14,2026-07-14,Cobertura de robo,Volkswagen Jetta,2013,39294,500,Vencido,0,0
+P0000095,2021-01-07,2022-01-07,Cobertura de robo,Chevrolet Cruze,2003,47746,700,Vencido,1,1
+P0000096,2020-07-11,2021-07-11,Cobertura de colisión,Honda Civic,2015,42915,700,Al día,0,0
+P0000097,2021-03-25,2022-03-25,Cobertura de robo,Kia Forte,2010,27813,600,Vencido,1,1
+P0000098,2021-09-18,2022-09-18,Cobertura total,Kia Forte,2013,30378,700,Al día,0,1
+P0000099,2021-10-17,2022-10-17,Cobertura total,Ford Focus,1994,48730,700,Vencido,0,0
+P00000100,2024-09-25,2025-09-25,Cobertura amplia,Ford Focus,2011,43286,700,Vencido,0,1
+P00000101,2020-09-17,2021-09-17,Cobertura amplia,Ford Focus,1996,13145,500,Vencido,0,0
+P00000102,2024-04-25,2025-04-25,Cobertura de colisión,Toyota Corolla,1990,48747,700,Vencido,1,0
+P00000103,2024-04-12,2025-04-12,Cobertura total,Hyundai Elantra,1999,41068,700,Al día,1,0
+P00000104,2025-04-01,2026-04-01,Responsabilidad civil,Hyundai Elantra,1996,38436,700,Vencido,0,0
+P00000105,2025-12-07,2026-12-07,Responsabilidad civil,Nissan Sentra,2001,48258,700,Al día,1,1
+P00000106,2022-10-26,2023-10-26,Cobertura de robo,Toyota Corolla,1998,48118,700,Vencido,0,1
+P00000107,2020-02-17,2021-02-16,Cobertura amplia,Chevrolet Cruze,2009,49721,500,Vencido,1,0
+P00000108,2021-04-14,2022-04-14,Cobertura de colisión,Chevrolet Cruze,2016,13412,600,Al día,1,1
+P00000109,2022-12-28,2023-12-28,Cobertura de robo,Volkswagen Jetta,2021,39845,600,Al día,0,1
+P00000110,2023-10-25,2024-10-24,Cobertura total,Hyundai Elantra,2009,20937,700,Al día,0,0
+P00000111,2021-04-01,2022-04-01,Cobertura total,Kia Forte,1996,34297,500,Vencido,0,0
+P00000112,2023-04-17,2024-04-16,Cobertura amplia,Toyota Corolla,2021,48472,500,Al día,0,0
+P00000113,2024-11-15,2025-11-15,Cobertura de robo,Kia Forte,2016,45630,600,Vencido,0,0
+P00000114,2021-10-09,2022-10-09,Cobertura de robo,Toyota Corolla,2014,26840,700,Vencido,0,0
+P00000115,2025-02-01,2026-02-01,Cobertura de colisión,Nissan Sentra,2014,25280,600,Al día,0,1
+P00000116,2020-01-14,2021-01-13,Cobertura de robo,Toyota Corolla,2018,43885,600,Al día,1,0
+P00000117,2022-12-14,2023-12-14,Cobertura de colisión,Volkswagen Jetta,1991,34662,500,Vencido,0,0
+P00000118,2025-08-12,2026-08-12,Cobertura amplia,Ford Focus,2006,36127,500,Vencido,1,0
+P00000119,2022-01-01,2023-01-01,Cobertura de robo,Subaru Impreza,1992,24335,600,Al día,1,0
+P00000120,2025-09-10,2026-09-10,Cobertura total,Nissan Sentra,2011,49796,600,Al día,1,1
+P00000121,2021-03-11,2022-03-11,Responsabilidad civil,Subaru Impreza,2017,21818,700,Vencido,0,1
+P00000122,2023-05-07,2024-05-06,Cobertura de colisión,Hyundai Elantra,2005,29503,500,Al día,1,0
+P00000123,2025-09-10,2026-09-10,Cobertura total,Toyota Corolla,2018,15024,600,Vencido,0,0
+P00000124,2022-03-25,2023-03-25,Cobertura total,Mazda 3,2015,41701,500,Vencido,1,0
+P00000125,2021-09-18,2022-09-18,Cobertura amplia,Nissan Sentra,1993,24757,600,Al día,1,0
+P00000126,2024-03-11,2025-03-11,Cobertura total,Subaru Impreza,2015,23347,500,Vencido,0,1
+P00000127,2021-10-23,2022-10-23,Cobertura de robo,Kia Forte,2006,13043,700,Al día,1,1
+P00000128,2025-12-12,2026-12-12,Cobertura de colisión,Hyundai Elantra,1992,32577,500,Vencido,0,0
+P00000129,2020-01-03,2021-01-02,Responsabilidad civil,Toyota Corolla,2010,25477,500,Vencido,0,0
+P00000130,2023-08-20,2024-08-19,Responsabilidad civil,Volkswagen Jetta,2009,14394,700,Al día,0,0
+P00000131,2025-06-24,2026-06-24,Cobertura de robo,Hyundai Elantra,2020,26837,600,Al día,0,1
+P00000132,2020-03-20,2021-03-20,Responsabilidad civil,Toyota Corolla,1998,44216,600,Al día,0,0
+P00000133,2021-04-03,2022-04-03,Cobertura de colisión,Kia Forte,2022,13338,700,Vencido,0,1
+P00000134,2024-01-26,2025-01-25,Cobertura de robo,Hyundai Elantra,1995,40912,600,Al día,1,0
+P00000135,2023-06-13,2024-06-12,Cobertura amplia,Nissan Sentra,2001,13268,500,Vencido,1,1
+P00000136,2022-09-07,2023-09-07,Responsabilidad civil,Kia Forte,2017,17819,500,Al día,0,0
+P00000137,2020-08-25,2021-08-25,Cobertura amplia,Subaru Impreza,2022,41058,600,Vencido,0,0
+P00000138,2022-09-13,2023-09-13,Responsabilidad civil,Toyota Corolla,2019,49645,600,Vencido,1,0
+P00000139,2020-11-18,2021-11-18,Cobertura total,Nissan Sentra,2013,29278,700,Al día,1,1
+P00000140,2020-12-16,2021-12-16,Cobertura total,Hyundai Elantra,1991,19290,500,Al día,0,1
+P00000141,2025-06-13,2026-06-13,Responsabilidad civil,Hyundai Elantra,1998,31047,700,Al día,0,0
+P00000142,2020-10-10,2021-10-10,Responsabilidad civil,Mazda 3,2003,15033,500,Vencido,0,1
+P00000143,2025-12-21,2026-12-21,Cobertura de robo,Toyota Corolla,2010,18726,500,Vencido,1,0
+P00000144,2021-05-30,2022-05-30,Cobertura amplia,Hyundai Elantra,1993,43712,500,Al día,0,0
+P00000145,2021-06-09,2022-06-09,Cobertura de robo,Toyota Corolla,1993,34667,600,Vencido,1,1
+P00000146,2025-04-30,2026-04-30,Cobertura de colisión,Toyota Corolla,1998,22708,500,Vencido,0,1
+P00000147,2021-11-07,2022-11-07,Cobertura de colisión,Toyota Corolla,2019,20534,700,Vencido,1,0
+P00000148,2022-12-21,2023-12-21,Cobertura de colisión,Toyota Corolla,2001,41130,600,Vencido,1,0
+P00000149,2025-12-01,2026-12-01,Cobertura de robo,Ford Focus,1997,34451,700,Al día,1,1
+P00000150,2024-09-29,2025-09-29,Cobertura amplia,Ford Focus,2016,23167,700,Vencido,1,1
+P00000151,2022-05-17,2023-05-17,Cobertura de robo,Kia Forte,2005,37646,500,Al día,1,1
+P00000152,2022-04-03,2023-04-03,Cobertura amplia,Hyundai Elantra,1992,43637,600,Vencido,0,1
+P00000153,2023-06-30,2024-06-29,Cobertura amplia,Volkswagen Jetta,2004,33273,600,Al día,1,1
+P00000154,2024-06-22,2025-06-22,Cobertura amplia,Honda Civic,2011,38271,700,Vencido,1,1
+P00000155,2024-03-09,2025-03-09,Cobertura total,Toyota Corolla,2003,16539,500,Vencido,1,1
+P00000156,2024-11-29,2025-11-29,Cobertura de robo,Subaru Impreza,2015,33112,600,Vencido,0,0
+P00000157,2025-10-20,2026-10-20,Cobertura total,Chevrolet Cruze,1996,10231,600,Al día,1,0
+P00000158,2025-01-23,2026-01-23,Cobertura de colisión,Hyundai Elantra,2021,33424,700,Vencido,0,0
+P00000159,2021-05-10,2022-05-10,Cobertura de colisión,Subaru Impreza,2002,16777,600,Vencido,1,0
+P00000160,2022-10-12,2023-10-12,Cobertura de robo,Toyota Corolla,1992,36044,600,Vencido,0,0
+P00000161,2022-07-09,2023-07-09,Cobertura amplia,Ford Focus,1993,37209,500,Vencido,0,0
+P00000162,2020-09-19,2021-09-19,Cobertura amplia,Toyota Corolla,2005,22440,600,Vencido,1,0
+P00000163,2023-10-16,2024-10-15,Responsabilidad civil,Nissan Sentra,2010,29040,500,Al día,1,1
+P00000164,2020-03-27,2021-03-27,Cobertura de robo,Toyota Corolla,2001,44921,600,Al día,1,1
+P00000165,2022-07-31,2023-07-31,Cobertura de robo,Toyota Corolla,1994,12452,500,Al día,1,0
+P00000166,2022-06-21,2023-06-21,Responsabilidad civil,Toyota Corolla,2010,23329,500,Vencido,0,1
+P00000167,2020-01-30,2021-01-29,Cobertura de colisión,Toyota Corolla,2010,49766,500,Vencido,1,0
+P00000168,2020-10-17,2021-10-17,Cobertura de colisión,Honda Civic,1991,17182,600,Al día,0,1
+P00000169,2020-08-29,2021-08-29,Cobertura amplia,Ford Focus,2002,33926,500,Vencido,0,1
+P00000170,2022-07-26,2023-07-26,Cobertura de colisión,Toyota Corolla,2022,13457,500,Al día,1,1
+P00000171,2020-10-03,2021-10-03,Cobertura de robo,Honda Civic,1990,10561,600,Vencido,0,1
+P00000172,2020-05-08,2021-05-08,Cobertura de robo,Ford Focus,2000,34667,700,Vencido,1,0
+P00000173,2023-09-15,2024-09-14,Cobertura total,Chevrolet Cruze,1994,13846,600,Vencido,1,0
+P00000174,2020-10-17,2021-10-17,Responsabilidad civil,Ford Focus,1999,21518,500,Al día,0,1
+P00000175,2025-10-06,2026-10-06,Cobertura total,Hyundai Elantra,1998,21011,500,Vencido,1,1
+P00000176,2022-09-01,2023-09-01,Cobertura de robo,Chevrolet Cruze,2010,40529,500,Vencido,0,1
+P00000177,2023-02-14,2024-02-14,Cobertura total,Subaru Impreza,2006,20866,700,Al día,0,1
+P00000178,2025-06-11,2026-06-11,Cobertura total,Honda Civic,2018,22015,600,Vencido,1,0
+P00000179,2022-05-27,2023-05-27,Cobertura amplia,Honda Civic,2005,15371,700,Vencido,0,1
+P00000180,2021-06-25,2022-06-25,Cobertura de colisión,Toyota Corolla,2018,30441,500,Vencido,0,1
+P00000181,2025-04-20,2026-04-20,Responsabilidad civil,Subaru Impreza,1993,21569,700,Vencido,1,1
+P00000182,2022-09-22,2023-09-22,Cobertura de colisión,Toyota Corolla,1996,33378,600,Al día,1,0
+P00000183,2025-04-21,2026-04-21,Responsabilidad civil,Mazda 3,1993,49986,700,Vencido,1,0
+P00000184,2024-07-25,2025-07-25,Cobertura de colisión,Nissan Sentra,2004,25276,600,Vencido,0,0
+P00000185,2022-02-18,2023-02-18,Responsabilidad civil,Chevrolet Cruze,1998,32449,500,Al día,0,1
+P00000186,2021-01-21,2022-01-21,Responsabilidad civil,Toyota Corolla,2021,32845,500,Al día,1,0
+P00000187,2021-02-01,2022-02-01,Cobertura total,Honda Civic,2007,15654,700,Vencido,0,1
+P00000188,2024-10-31,2025-10-31,Responsabilidad civil,Nissan Sentra,2014,19782,700,Al día,0,0
+P00000189,2023-12-22,2024-12-21,Cobertura total,Toyota Corolla,1997,34749,700,Vencido,0,0
+P00000190,2024-09-30,2025-09-30,Cobertura de robo,Ford Focus,2012,41500,600,Vencido,0,1
+P00000191,2024-08-10,2025-08-10,Responsabilidad civil,Honda Civic,2005,37826,500,Vencido,0,0
+P00000192,2025-03-27,2026-03-27,Cobertura amplia,Honda Civic,2009,49915,700,Al día,0,0
+P00000193,2020-08-09,2021-08-09,Cobertura amplia,Ford Focus,2006,12617,500,Al día,1,1
+P00000194,2021-02-07,2022-02-07,Cobertura de robo,Honda Civic,1997,43468,600,Al día,1,1
+P00000195,2020-09-05,2021-09-05,Responsabilidad civil,Subaru Impreza,2016,26298,500,Vencido,1,1
+P00000196,2024-07-07,2025-07-07,Cobertura de colisión,Honda Civic,1991,42973,500,Vencido,0,0
+P00000197,2023-10-21,2024-10-20,Cobertura de robo,Mazda 3,2009,15037,600,Al día,1,0
+P00000198,2021-03-23,2022-03-23,Cobertura de colisión,Ford Focus,2009,18590,700,Al día,1,0
+P00000199,2022-10-15,2023-10-15,Cobertura total,Ford Focus,2001,16426,500,Al día,0,0
+P00000200,2022-02-23,2023-02-23,Cobertura amplia,Chevrolet Cruze,2017,24143,500,Vencido,1,0
+P00000201,2022-02-18,2023-02-18,Responsabilidad civil,Honda Civic,1991,17455,600,Al día,0,1
+P00000202,2025-01-11,2026-01-11,Responsabilidad civil,Toyota Corolla,1990,28735,500,Vencido,0,0
+P00000203,2021-07-28,2022-07-28,Responsabilidad civil,Honda Civic,1996,33868,500,Al día,1,1
+P00000204,2024-09-24,2025-09-24,Cobertura total,Subaru Impreza,2011,46413,500,Vencido,1,1
+P00000205,2022-01-21,2023-01-21,Cobertura amplia,Subaru Impreza,2017,38772,500,Al día,0,0
+P00000206,2023-02-14,2024-02-14,Cobertura de robo,Ford Focus,2004,23685,700,Vencido,1,1
+P00000207,2025-03-09,2026-03-09,Responsabilidad civil,Honda Civic,1997,37864,600,Vencido,1,0
+P00000208,2022-10-20,2023-10-20,Cobertura de robo,Toyota Corolla,2019,15179,500,Al día,1,1
+P00000209,2020-11-04,2021-11-04,Responsabilidad civil,Kia Forte,1992,29104,500,Vencido,1,1
+P00000210,2024-12-20,2025-12-20,Cobertura total,Subaru Impreza,2009,40698,500,Vencido,1,0
+P00000211,2021-02-05,2022-02-05,Cobertura amplia,Hyundai Elantra,2011,15793,500,Al día,1,0
+P00000212,2020-07-26,2021-07-26,Cobertura amplia,Volkswagen Jetta,1990,23760,500,Al día,1,0
+P00000213,2020-03-01,2021-03-01,Responsabilidad civil,Kia Forte,2004,17939,500,Al día,0,1
+P00000214,2021-01-17,2022-01-17,Cobertura total,Honda Civic,2019,43120,500,Al día,1,0
+P00000215,2022-08-26,2023-08-26,Cobertura de colisión,Chevrolet Cruze,1991,15216,600,Al día,1,1
+P00000216,2021-11-12,2022-11-12,Cobertura de colisión,Volkswagen Jetta,1999,28390,500,Vencido,1,0
+P00000217,2024-07-22,2025-07-22,Responsabilidad civil,Ford Focus,2000,24483,600,Vencido,0,1
+P00000218,2025-06-12,2026-06-12,Responsabilidad civil,Nissan Sentra,2022,31306,600,Vencido,0,1
+P00000219,2025-05-25,2026-05-25,Responsabilidad civil,Toyota Corolla,2021,18941,700,Al día,1,0
+P00000220,2022-05-25,2023-05-25,Cobertura de colisión,Toyota Corolla,2007,19107,700,Al día,0,0
+P00000221,2024-06-30,2025-06-30,Cobertura total,Kia Forte,2001,14987,600,Al día,1,0
+P00000222,2020-08-28,2021-08-28,Cobertura de robo,Chevrolet Cruze,1997,46264,500,Vencido,0,0
+P00000223,2021-11-05,2022-11-05,Cobertura total,Ford Focus,2007,26839,600,Vencido,1,1
+P00000224,2024-04-01,2025-04-01,Cobertura amplia,Volkswagen Jetta,1991,21011,500,Vencido,0,0
+P00000225,2020-01-09,2021-01-08,Cobertura de colisión,Ford Focus,1994,16271,600,Vencido,1,0
+P00000226,2024-05-18,2025-05-18,Cobertura amplia,Subaru Impreza,2011,48211,700,Vencido,1,1
+P00000227,2022-12-22,2023-12-22,Cobertura de robo,Chevrolet Cruze,2011,25985,500,Vencido,0,1
+P00000228,2025-02-06,2026-02-06,Responsabilidad civil,Hyundai Elantra,1995,42123,600,Vencido,0,1
+P00000229,2023-03-14,2024-03-13,Cobertura de colisión,Toyota Corolla,1994,38405,600,Al día,0,1
+P00000230,2024-09-28,2025-09-28,Cobertura de robo,Chevrolet Cruze,2018,12274,500,Al día,0,0
+P00000231,2025-06-16,2026-06-16,Responsabilidad civil,Honda Civic,2009,39228,700,Al día,0,1
+P00000232,2021-09-26,2022-09-26,Cobertura de robo,Ford Focus,1991,16061,600,Al día,0,0
+P00000233,2022-02-16,2023-02-16,Responsabilidad civil,Volkswagen Jetta,2006,19592,700,Al día,0,1
+P00000234,2023-04-30,2024-04-29,Responsabilidad civil,Nissan Sentra,2012,34255,700,Vencido,0,1
+P00000235,2022-06-10,2023-06-10,Cobertura total,Toyota Corolla,2005,41193,700,Vencido,1,0
+P00000236,2020-08-27,2021-08-27,Responsabilidad civil,Honda Civic,1998,18457,500,Vencido,1,0
+P00000237,2020-09-06,2021-09-06,Cobertura de robo,Ford Focus,2018,21243,600,Al día,0,1
+P00000238,2023-07-08,2024-07-07,Cobertura amplia,Nissan Sentra,1993,30507,600,Al día,0,0
+P00000239,2020-08-22,2021-08-22,Cobertura total,Hyundai Elantra,1996,43414,500,Vencido,0,0
+P00000240,2020-07-24,2021-07-24,Cobertura total,Toyota Corolla,2010,24678,700,Vencido,1,1
+P00000241,2025-05-06,2026-05-06,Cobertura de robo,Toyota Corolla,1995,22850,500,Vencido,1,0
+P00000242,2025-08-21,2026-08-21,Responsabilidad civil,Kia Forte,2016,16173,700,Vencido,0,1
+P00000243,2025-12-15,2026-12-15,Cobertura de robo,Ford Focus,2005,47674,500,Vencido,1,1
+P00000244,2021-10-06,2022-10-06,Cobertura de robo,Hyundai Elantra,2010,18626,600,Al día,0,0
+P00000245,2020-08-20,2021-08-20,Cobertura de colisión,Ford Focus,2016,22055,600,Al día,0,0
+P00000246,2025-09-11,2026-09-11,Cobertura de colisión,Nissan Sentra,2022,40467,600,Vencido,1,1
+P00000247,2020-11-24,2021-11-24,Responsabilidad civil,Subaru Impreza,2004,15870,600,Al día,1,1
+P00000248,2022-01-31,2023-01-31,Responsabilidad civil,Toyota Corolla,2002,29798,600,Al día,1,0
+P00000249,2020-10-07,2021-10-07,Responsabilidad civil,Volkswagen Jetta,2013,46264,700,Vencido,1,1
+P00000250,2020-10-05,2021-10-05,Cobertura amplia,Ford Focus,1994,25401,600,Al día,0,1
+P00000251,2022-08-21,2023-08-21,Cobertura de colisión,Subaru Impreza,2016,22307,600,Vencido,0,1
+P00000252,2024-07-11,2025-07-11,Cobertura de colisión,Toyota Corolla,2012,25347,600,Al día,1,1
+P00000253,2021-05-06,2022-05-06,Cobertura amplia,Hyundai Elantra,1991,37842,600,Vencido,1,1
+P00000254,2022-10-05,2023-10-05,Responsabilidad civil,Toyota Corolla,1993,48478,700,Vencido,1,1
+P00000255,2020-06-11,2021-06-11,Responsabilidad civil,Toyota Corolla,1993,31647,700,Al día,1,1
+P00000256,2020-12-01,2021-12-01,Cobertura total,Kia Forte,1992,47139,700,Vencido,1,0
+P00000257,2024-09-13,2025-09-13,Cobertura total,Nissan Sentra,1998,30990,500,Al día,0,0
+P00000258,2025-11-11,2026-11-11,Cobertura de robo,Mazda 3,2007,16780,500,Vencido,0,1
+P00000259,2023-07-19,2024-07-18,Cobertura total,Honda Civic,2002,15787,700,Vencido,1,1
+P00000260,2022-12-04,2023-12-04,Cobertura total,Honda Civic,1990,42962,500,Al día,0,1
+P00000261,2022-04-16,2023-04-16,Cobertura amplia,Kia Forte,2008,42237,500,Al día,1,1
+P00000262,2023-07-10,2024-07-09,Cobertura de robo,Chevrolet Cruze,2003,39657,700,Vencido,1,0
+P00000263,2022-09-04,2023-09-04,Cobertura de robo,Volkswagen Jetta,1992,24223,600,Al día,1,0
+P00000264,2022-12-23,2023-12-23,Cobertura total,Honda Civic,2000,20664,700,Al día,1,0
+P00000265,2024-06-09,2025-06-09,Responsabilidad civil,Nissan Sentra,1998,14508,500,Vencido,0,1
+P00000266,2021-06-20,2022-06-20,Cobertura de robo,Honda Civic,2009,28840,600,Al día,0,1
+P00000267,2023-05-13,2024-05-12,Cobertura total,Honda Civic,2006,28868,600,Vencido,0,0
+P00000268,2025-02-15,2026-02-15,Cobertura de robo,Hyundai Elantra,2022,20519,500,Al día,0,1
+P00000269,2023-07-19,2024-07-18,Cobertura de colisión,Toyota Corolla,2010,22249,500,Vencido,0,0
+P00000270,2020-10-24,2021-10-24,Cobertura amplia,Kia Forte,2008,47381,500,Al día,0,1
+P00000271,2020-02-08,2021-02-07,Responsabilidad civil,Honda Civic,2008,46339,600,Al día,0,0
+P00000272,2025-02-20,2026-02-20,Cobertura de colisión,Honda Civic,2009,40256,500,Al día,1,0
+P00000273,2021-02-13,2022-02-13,Cobertura total,Ford Focus,2022,21240,700,Vencido,0,0
+P00000274,2020-10-27,2021-10-27,Responsabilidad civil,Toyota Corolla,2007,38295,600,Al día,0,1
+P00000275,2022-05-23,2023-05-23,Cobertura de colisión,Honda Civic,2010,23947,700,Al día,0,1
+P00000276,2025-09-03,2026-09-03,Cobertura de robo,Mazda 3,2000,41563,700,Al día,1,1
+P00000277,2022-12-22,2023-12-22,Cobertura total,Kia Forte,2002,43547,600,Al día,0,1
+P00000278,2021-06-26,2022-06-26,Cobertura amplia,Subaru Impreza,2009,31274,500,Vencido,1,0
+P00000279,2023-11-30,2024-11-29,Cobertura de robo,Volkswagen Jetta,1992,49928,500,Al día,1,1
+P00000280,2020-10-08,2021-10-08,Cobertura total,Kia Forte,1999,16660,700,Al día,0,0
+P00000281,2022-09-27,2023-09-27,Cobertura amplia,Nissan Sentra,2006,45834,500,Al día,1,0
+P00000282,2024-02-22,2025-02-21,Responsabilidad civil,Chevrolet Cruze,2003,45844,500,Vencido,0,1
+P00000283,2023-03-13,2024-03-12,Cobertura total,Honda Civic,2017,15397,700,Al día,0,0
+P00000284,2021-10-08,2022-10-08,Cobertura de colisión,Honda Civic,1990,31628,700,Vencido,0,1
+P00000285,2024-11-29,2025-11-29,Cobertura de robo,Toyota Corolla,2004,23899,700,Al día,0,0
+P00000286,2023-05-24,2024-05-23,Cobertura de colisión,Mazda 3,1994,48095,600,Vencido,1,0
+P00000287,2025-12-06,2026-12-06,Cobertura total,Honda Civic,2021,49457,500,Vencido,1,1
+P00000288,2020-02-02,2021-02-01,Cobertura de robo,Hyundai Elantra,2013,33374,600,Al día,0,0
+P00000289,2023-05-11,2024-05-10,Cobertura total,Subaru Impreza,2001,10502,700,Vencido,1,0
+P00000290,2021-02-28,2022-02-28,Cobertura total,Nissan Sentra,2019,38559,600,Al día,0,0
+P00000291,2021-07-04,2022-07-04,Cobertura de colisión,Toyota Corolla,2022,40124,500,Al día,0,1
+P00000292,2022-12-19,2023-12-19,Cobertura de robo,Kia Forte,2014,43862,600,Vencido,0,0
+P00000293,2021-04-17,2022-04-17,Cobertura de colisión,Volkswagen Jetta,2016,35400,600,Vencido,1,0
+P00000294,2021-03-14,2022-03-14,Cobertura amplia,Ford Focus,1994,15071,700,Vencido,0,1
+P00000295,2021-09-28,2022-09-28,Cobertura de colisión,Honda Civic,1990,35659,700,Vencido,1,0
+P00000296,2023-01-20,2024-01-20,Responsabilidad civil,Hyundai Elantra,2022,18457,700,Vencido,0,1
+P00000297,2023-02-28,2024-02-28,Responsabilidad civil,Toyota Corolla,1995,20381,700,Al día,0,0
+P00000298,2022-05-12,2023-05-12,Cobertura de colisión,Nissan Sentra,2011,48958,700,Vencido,1,1
+P00000299,2023-11-05,2024-11-04,Cobertura de colisión,Volkswagen Jetta,1994,29364,600,Al día,0,1
+P00000300,2022-04-13,2023-04-13,Cobertura de colisión,Toyota Corolla,1992,41622,500,Al día,1,1
+P00000301,2022-12-17,2023-12-17,Responsabilidad civil,Ford Focus,2003,43165,600,Vencido,1,1
+P00000302,2025-09-01,2026-09-01,Cobertura amplia,Ford Focus,2018,28447,600,Vencido,0,1
+P00000303,2025-06-24,2026-06-24,Cobertura de robo,Ford Focus,2009,26062,600,Al día,0,1
+P00000304,2022-10-25,2023-10-25,Cobertura amplia,Ford Focus,2011,25725,700,Vencido,0,1
+P00000305,2020-07-27,2021-07-27,Cobertura amplia,Ford Focus,2015,32249,700,Vencido,0,1
+P00000306,2021-01-13,2022-01-13,Cobertura de robo,Chevrolet Cruze,2020,10283,700,Vencido,0,0
+P00000307,2024-09-30,2025-09-30,Cobertura total,Mazda 3,2012,24280,500,Vencido,1,0
+P00000308,2023-02-07,2024-02-07,Cobertura amplia,Hyundai Elantra,1998,18799,600,Vencido,1,1
+P00000309,2020-06-29,2021-06-29,Cobertura amplia,Volkswagen Jetta,2000,24760,700,Al día,1,0
+P00000310,2020-01-15,2021-01-14,Responsabilidad civil,Nissan Sentra,1999,14372,500,Al día,0,1
+P00000311,2023-09-28,2024-09-27,Responsabilidad civil,Subaru Impreza,2013,11525,700,Al día,1,0
+P00000312,2021-06-19,2022-06-19,Cobertura de colisión,Nissan Sentra,1996,20987,600,Vencido,0,1
+P00000313,2022-12-08,2023-12-08,Cobertura total,Subaru Impreza,2020,37847,700,Vencido,0,1
+P00000314,2021-10-23,2022-10-23,Responsabilidad civil,Toyota Corolla,2004,44044,700,Al día,1,0
+P00000315,2024-12-14,2025-12-14,Cobertura amplia,Mazda 3,2012,41522,600,Vencido,0,0
+P00000316,2024-10-17,2025-10-17,Cobertura de colisión,Hyundai Elantra,2015,46933,500,Vencido,1,1
+P00000317,2020-02-09,2021-02-08,Cobertura amplia,Toyota Corolla,2015,15547,500,Al día,0,0
+P00000318,2021-04-03,2022-04-03,Responsabilidad civil,Hyundai Elantra,2011,14570,700,Al día,1,0
+P00000319,2020-11-04,2021-11-04,Cobertura de colisión,Nissan Sentra,2014,11019,500,Vencido,0,0
+P00000320,2021-09-02,2022-09-02,Cobertura total,Mazda 3,2003,26846,500,Al día,0,1
+P00000321,2020-05-27,2021-05-27,Cobertura de robo,Toyota Corolla,1992,13573,600,Al día,1,0
+P00000322,2024-02-21,2025-02-20,Cobertura de robo,Nissan Sentra,2013,33595,500,Vencido,1,1
+P00000323,2021-08-29,2022-08-29,Responsabilidad civil,Chevrolet Cruze,2009,32490,700,Vencido,0,1
+P00000324,2024-10-26,2025-10-26,Cobertura amplia,Toyota Corolla,2012,45128,700,Vencido,1,0
+P00000325,2021-06-06,2022-06-06,Cobertura de robo,Volkswagen Jetta,1992,49156,500,Vencido,1,0
+P00000326,2020-06-20,2021-06-20,Cobertura de robo,Nissan Sentra,2015,32900,600,Al día,0,1
+P00000327,2023-06-16,2024-06-15,Cobertura amplia,Nissan Sentra,1995,33089,600,Al día,0,1
+P00000328,2024-02-02,2025-02-01,Responsabilidad civil,Honda Civic,2012,18233,700,Vencido,0,0
+P00000329,2020-06-12,2021-06-12,Cobertura amplia,Chevrolet Cruze,2010,27174,500,Al día,0,0
+P00000330,2024-01-05,2025-01-04,Cobertura total,Ford Focus,2020,22815,600,Al día,1,1
+P00000331,2022-05-10,2023-05-10,Cobertura de colisión,Chevrolet Cruze,2002,37298,500,Al día,1,0
+P00000332,2022-10-19,2023-10-19,Responsabilidad civil,Chevrolet Cruze,1999,12947,500,Al día,1,0
+P00000333,2021-02-25,2022-02-25,Cobertura amplia,Mazda 3,1991,45823,600,Al día,1,0
+P00000334,2023-12-19,2024-12-18,Cobertura de robo,Ford Focus,1994,31901,700,Al día,0,1
+P00000335,2024-07-22,2025-07-22,Responsabilidad civil,Honda Civic,1999,47344,700,Al día,0,1
+P00000336,2021-09-25,2022-09-25,Cobertura de robo,Kia Forte,2012,34028,600,Vencido,1,0
+P00000337,2022-08-27,2023-08-27,Cobertura amplia,Hyundai Elantra,2003,28740,600,Vencido,1,0
+P00000338,2021-10-27,2022-10-27,Cobertura de colisión,Volkswagen Jetta,2008,13059,500,Vencido,0,1
+P00000339,2021-12-26,2022-12-26,Cobertura amplia,Chevrolet Cruze,2020,21032,600,Al día,0,0
+P00000340,2024-08-15,2025-08-15,Cobertura de robo,Toyota Corolla,2017,12955,700,Vencido,1,0
+P00000341,2020-04-11,2021-04-11,Cobertura total,Toyota Corolla,2022,30733,700,Al día,0,0
+P00000342,2022-01-04,2023-01-04,Cobertura amplia,Toyota Corolla,1992,32332,700,Vencido,0,1
+P00000343,2023-09-22,2024-09-21,Cobertura de colisión,Toyota Corolla,2007,29455,600,Vencido,1,1
+P00000344,2024-08-13,2025-08-13,Responsabilidad civil,Ford Focus,1991,33536,500,Vencido,0,0
+P00000345,2022-10-13,2023-10-13,Cobertura de robo,Honda Civic,2016,49582,600,Al día,0,1
+P00000346,2022-12-28,2023-12-28,Responsabilidad civil,Subaru Impreza,2010,12112,700,Vencido,0,0
+P00000347,2021-10-14,2022-10-14,Responsabilidad civil,Kia Forte,2009,17149,600,Al día,1,0
+P00000348,2021-03-18,2022-03-18,Cobertura de robo,Volkswagen Jetta,2004,12503,500,Al día,1,1
+P00000349,2024-04-15,2025-04-15,Responsabilidad civil,Ford Focus,2022,40414,700,Vencido,0,0
+P00000350,2020-06-07,2021-06-07,Responsabilidad civil,Ford Focus,2019,37249,500,Vencido,1,0
+P00000351,2025-04-11,2026-04-11,Cobertura de robo,Honda Civic,2004,13044,600,Vencido,0,0
+P00000352,2022-06-30,2023-06-30,Cobertura total,Hyundai Elantra,1992,41876,700,Vencido,1,0
+P00000353,2022-03-28,2023-03-28,Cobertura de robo,Hyundai Elantra,2007,16847,500,Vencido,1,1
+P00000354,2025-02-28,2026-02-28,Cobertura de colisión,Ford Focus,1999,40569,500,Vencido,0,0
+P00000355,2023-12-03,2024-12-02,Cobertura de colisión,Honda Civic,1993,24294,700,Al día,1,0
+P00000356,2023-06-04,2024-06-03,Responsabilidad civil,Honda Civic,1998,28697,700,Vencido,0,0
+P00000357,2022-07-21,2023-07-21,Cobertura de colisión,Honda Civic,2017,44010,500,Vencido,1,1
+P00000358,2022-07-02,2023-07-02,Cobertura de robo,Kia Forte,2022,46037,600,Al día,0,0
+P00000359,2020-04-06,2021-04-06,Cobertura de robo,Hyundai Elantra,2011,44253,700,Al día,1,1
+P00000360,2022-03-02,2023-03-02,Cobertura amplia,Honda Civic,1994,17874,700,Vencido,0,1
+P00000361,2024-06-20,2025-06-20,Responsabilidad civil,Honda Civic,2014,40708,700,Al día,0,0
+P00000362,2023-09-06,2024-09-05,Cobertura total,Hyundai Elantra,2006,40924,500,Vencido,1,1
+P00000363,2023-02-15,2024-02-15,Cobertura de colisión,Toyota Corolla,2012,29685,700,Al día,1,1
+P00000364,2020-10-11,2021-10-11,Cobertura amplia,Chevrolet Cruze,2006,37488,700,Al día,0,1
+P00000365,2023-02-17,2024-02-17,Cobertura amplia,Kia Forte,2010,46391,500,Al día,1,0
+P00000366,2023-12-09,2024-12-08,Cobertura amplia,Ford Focus,2019,38779,600,Vencido,0,0
+P00000367,2025-09-17,2026-09-17,Cobertura de colisión,Honda Civic,2008,23198,600,Vencido,0,1
+P00000368,2024-06-25,2025-06-25,Cobertura de robo,Toyota Corolla,2016,25522,600,Al día,0,0
+P00000369,2023-09-18,2024-09-17,Responsabilidad civil,Hyundai Elantra,2009,31811,700,Al día,0,1
+P00000370,2020-04-23,2021-04-23,Cobertura de colisión,Volkswagen Jetta,2003,27950,600,Al día,0,0
+P00000371,2021-04-17,2022-04-17,Cobertura total,Toyota Corolla,2002,28871,600,Al día,0,1
+P00000372,2022-12-05,2023-12-05,Cobertura amplia,Kia Forte,1992,37321,700,Vencido,1,0
+P00000373,2022-01-01,2023-01-01,Responsabilidad civil,Toyota Corolla,2011,47036,500,Vencido,0,0
+P00000374,2022-12-23,2023-12-23,Responsabilidad civil,Toyota Corolla,1992,25016,600,Vencido,1,1
+P00000375,2020-06-05,2021-06-05,Cobertura amplia,Toyota Corolla,2001,31251,700,Al día,0,1
+P00000376,2021-03-20,2022-03-20,Responsabilidad civil,Ford Focus,1997,33069,600,Al día,1,1
+P00000377,2024-11-14,2025-11-14,Cobertura de robo,Honda Civic,2011,34267,700,Vencido,1,0
+P00000378,2023-11-16,2024-11-15,Responsabilidad civil,Volkswagen Jetta,1992,47149,500,Al día,1,0
+P00000379,2023-07-08,2024-07-07,Cobertura de colisión,Kia Forte,2006,27505,700,Vencido,1,1
+P00000380,2024-11-22,2025-11-22,Cobertura amplia,Honda Civic,2007,16156,600,Al día,1,0
+P00000381,2025-09-25,2026-09-25,Cobertura de robo,Subaru Impreza,2005,35562,500,Al día,1,0
+P00000382,2021-04-18,2022-04-18,Cobertura total,Subaru Impreza,2020,46380,500,Vencido,1,1
+P00000383,2024-04-26,2025-04-26,Cobertura de robo,Honda Civic,2014,29222,500,Al día,0,1
+P00000384,2022-02-17,2023-02-17,Cobertura amplia,Nissan Sentra,2001,46960,700,Al día,0,1
+P00000385,2022-11-09,2023-11-09,Cobertura de robo,Hyundai Elantra,1992,26159,500,Vencido,0,1
+P00000386,2020-06-30,2021-06-30,Cobertura de colisión,Toyota Corolla,2012,31792,700,Al día,1,0
+P00000387,2024-11-21,2025-11-21,Responsabilidad civil,Toyota Corolla,2000,37093,500,Al día,1,1
+P00000388,2020-01-07,2021-01-06,Cobertura total,Chevrolet Cruze,1991,22237,500,Vencido,1,1
+P00000389,2025-10-30,2026-10-30,Cobertura amplia,Chevrolet Cruze,2012,13795,700,Vencido,1,0
+P00000390,2022-03-18,2023-03-18,Cobertura amplia,Volkswagen Jetta,2018,21695,600,Al día,0,0
+P00000391,2024-01-31,2025-01-30,Cobertura de robo,Nissan Sentra,1995,48722,700,Al día,0,0
+P00000392,2024-11-01,2025-11-01,Cobertura amplia,Honda Civic,1990,48987,500,Al día,0,1
+P00000393,2020-10-13,2021-10-13,Cobertura amplia,Volkswagen Jetta,1991,45506,700,Vencido,1,0
+P00000394,2023-09-14,2024-09-13,Cobertura total,Chevrolet Cruze,2006,27792,500,Vencido,1,0
+P00000395,2023-07-09,2024-07-08,Cobertura amplia,Toyota Corolla,2020,13573,700,Al día,0,1
+P00000396,2021-05-25,2022-05-25,Cobertura de robo,Kia Forte,1999,16653,700,Vencido,1,0
+P00000397,2023-05-15,2024-05-14,Cobertura de colisión,Nissan Sentra,2018,39881,500,Vencido,1,0
+P00000398,2025-09-08,2026-09-08,Cobertura de colisión,Toyota Corolla,2020,23151,600,Vencido,1,1
+P00000399,2023-06-20,2024-06-19,Responsabilidad civil,Toyota Corolla,2020,35543,500,Al día,0,0
+P00000400,2024-07-30,2025-07-30,Cobertura amplia,Honda Civic,2015,26316,700,Vencido,1,1
+P00000401,2023-08-29,2024-08-28,Cobertura de colisión,Ford Focus,2015,20588,600,Al día,0,0
+P00000402,2024-07-06,2025-07-06,Cobertura amplia,Nissan Sentra,2008,25283,500,Vencido,0,0
+P00000403,2023-04-26,2024-04-25,Cobertura de robo,Toyota Corolla,2005,12555,600,Vencido,1,1
+P00000404,2021-06-05,2022-06-05,Cobertura de robo,Toyota Corolla,2010,14605,600,Vencido,1,0
+P00000405,2022-02-24,2023-02-24,Responsabilidad civil,Toyota Corolla,2017,10320,500,Al día,0,0
+P00000406,2024-09-18,2025-09-18,Responsabilidad civil,Subaru Impreza,1994,25227,500,Al día,1,1
+P00000407,2024-04-01,2025-04-01,Cobertura total,Hyundai Elantra,1994,19547,600,Al día,0,1
+P00000408,2021-12-13,2022-12-13,Cobertura de colisión,Honda Civic,2007,47118,700,Al día,0,1
+P00000409,2023-05-17,2024-05-16,Cobertura amplia,Toyota Corolla,1992,16457,500,Al día,1,1
+P00000410,2024-07-21,2025-07-21,Cobertura amplia,Ford Focus,2019,45250,600,Al día,1,0
+P00000411,2020-01-02,2021-01-01,Cobertura amplia,Chevrolet Cruze,2015,13747,500,Al día,1,1
+P00000412,2023-05-29,2024-05-28,Cobertura amplia,Honda Civic,2021,31525,700,Al día,1,1
+P00000413,2023-03-21,2024-03-20,Cobertura amplia,Ford Focus,1998,42531,600,Vencido,0,1
+P00000414,2022-05-10,2023-05-10,Cobertura de robo,Mazda 3,1992,39591,600,Al día,1,1
+P00000415,2024-10-26,2025-10-26,Cobertura total,Chevrolet Cruze,2017,32913,700,Al día,1,0
+P00000416,2023-08-12,2024-08-11,Cobertura total,Chevrolet Cruze,2016,36262,600,Vencido,1,0
+P00000417,2025-03-19,2026-03-19,Responsabilidad civil,Ford Focus,2018,13467,700,Vencido,1,0
+P00000418,2024-12-14,2025-12-14,Cobertura total,Chevrolet Cruze,2015,44783,700,Vencido,1,0
+P00000419,2024-12-16,2025-12-16,Cobertura de robo,Chevrolet Cruze,1996,25760,500,Al día,0,0
+P00000420,2022-05-25,2023-05-25,Cobertura de robo,Chevrolet Cruze,2000,14183,700,Vencido,1,0
+P00000421,2025-09-24,2026-09-24,Cobertura de colisión,Toyota Corolla,2000,35354,700,Al día,0,0
+P00000422,2025-04-22,2026-04-22,Cobertura de colisión,Kia Forte,2020,26939,500,Al día,1,0
+P00000423,2021-11-26,2022-11-26,Cobertura total,Volkswagen Jetta,2012,19530,600,Al día,1,0
+P00000424,2020-12-13,2021-12-13,Cobertura de robo,Subaru Impreza,1998,12262,600,Al día,0,0
+P00000425,2023-03-08,2024-03-07,Cobertura amplia,Toyota Corolla,1993,46611,700,Vencido,0,1
+P00000426,2025-10-12,2026-10-12,Responsabilidad civil,Kia Forte,1993,45447,700,Al día,1,1
+P00000427,2023-10-04,2024-10-03,Cobertura de colisión,Honda Civic,1999,46546,500,Vencido,1,1
+P00000428,2021-01-17,2022-01-17,Cobertura total,Volkswagen Jetta,2007,26468,600,Vencido,1,0
+P00000429,2022-08-20,2023-08-20,Responsabilidad civil,Chevrolet Cruze,2004,25730,500,Al día,1,0
+P00000430,2023-06-25,2024-06-24,Cobertura de colisión,Volkswagen Jetta,2002,19604,500,Vencido,0,1
+P00000431,2022-07-09,2023-07-09,Cobertura amplia,Hyundai Elantra,2003,22270,600,Vencido,0,0
+P00000432,2022-03-26,2023-03-26,Cobertura total,Volkswagen Jetta,2022,32997,600,Vencido,1,1
+P00000433,2021-08-26,2022-08-26,Cobertura total,Ford Focus,1999,47863,600,Vencido,1,0
+P00000434,2020-04-10,2021-04-10,Responsabilidad civil,Toyota Corolla,2010,25116,700,Vencido,1,1
+P00000435,2020-07-08,2021-07-08,Cobertura de robo,Honda Civic,1990,36351,600,Vencido,1,0
+P00000436,2022-09-29,2023-09-29,Cobertura de colisión,Toyota Corolla,2019,47317,700,Al día,1,0
+P00000437,2025-04-30,2026-04-30,Cobertura total,Ford Focus,2012,22797,600,Al día,1,0
+P00000438,2020-10-25,2021-10-25,Cobertura de robo,Honda Civic,2002,11406,500,Vencido,1,0
+P00000439,2025-02-08,2026-02-08,Cobertura de colisión,Subaru Impreza,2008,28588,600,Al día,1,1
+P00000440,2024-08-24,2025-08-24,Cobertura total,Honda Civic,1998,28276,500,Al día,0,0
+P00000441,2022-03-07,2023-03-07,Cobertura total,Kia Forte,2002,29882,600,Al día,0,1
+P00000442,2024-04-21,2025-04-21,Cobertura total,Kia Forte,1997,47820,700,Vencido,1,0
+P00000443,2025-07-17,2026-07-17,Cobertura total,Kia Forte,2014,40988,500,Vencido,0,1
+P00000444,2024-06-24,2025-06-24,Responsabilidad civil,Ford Focus,2005,11290,600,Al día,1,0
+P00000445,2022-09-26,2023-09-26,Responsabilidad civil,Volkswagen Jetta,1993,32079,600,Vencido,0,0
+P00000446,2021-08-27,2022-08-27,Cobertura de colisión,Chevrolet Cruze,2020,39565,600,Al día,1,0
+P00000447,2020-01-23,2021-01-22,Cobertura amplia,Ford Focus,1993,34085,700,Vencido,1,1
+P00000448,2021-03-12,2022-03-12,Responsabilidad civil,Ford Focus,1996,38604,600,Vencido,1,1
+P00000449,2024-10-07,2025-10-07,Cobertura amplia,Nissan Sentra,2008,18157,600,Al día,0,0
+P00000450,2022-06-15,2023-06-15,Cobertura de colisión,Toyota Corolla,2008,15930,500,Al día,1,1
+P00000451,2021-12-21,2022-12-21,Cobertura de colisión,Chevrolet Cruze,2021,41598,600,Vencido,1,1
+P00000452,2025-10-22,2026-10-22,Responsabilidad civil,Ford Focus,1991,30145,700,Vencido,0,1
+P00000453,2025-03-17,2026-03-17,Cobertura de robo,Kia Forte,1998,39428,500,Al día,1,1
+P00000454,2020-07-24,2021-07-24,Cobertura de colisión,Subaru Impreza,1994,30484,600,Al día,0,1
+P00000455,2022-10-17,2023-10-17,Cobertura de robo,Honda Civic,2013,42202,500,Al día,1,0
+P00000456,2021-05-12,2022-05-12,Cobertura amplia,Honda Civic,2009,19460,700,Vencido,1,0
+P00000457,2025-02-12,2026-02-12,Cobertura de robo,Toyota Corolla,2005,42393,700,Vencido,0,0
+P00000458,2021-06-30,2022-06-30,Cobertura de colisión,Volkswagen Jetta,2008,44219,500,Vencido,0,1
+P00000459,2025-03-18,2026-03-18,Cobertura de robo,Hyundai Elantra,2011,24705,700,Vencido,0,1
+P00000460,2025-12-15,2026-12-15,Cobertura de robo,Hyundai Elantra,1995,21254,700,Al día,1,0
+P00000461,2023-07-23,2024-07-22,Responsabilidad civil,Toyota Corolla,2015,34684,500,Vencido,0,0
+P00000462,2024-12-17,2025-12-17,Cobertura de robo,Toyota Corolla,2005,24390,600,Al día,0,0
+P00000463,2025-08-29,2026-08-29,Cobertura de colisión,Honda Civic,2008,42061,700,Vencido,0,1
+P00000464,2024-10-13,2025-10-13,Responsabilidad civil,Honda Civic,1993,12903,500,Al día,0,0
+P00000465,2024-12-31,2025-12-31,Cobertura total,Kia Forte,2004,16116,600,Al día,1,0
+P00000466,2021-10-13,2022-10-13,Responsabilidad civil,Volkswagen Jetta,1997,29241,600,Vencido,1,1
+P00000467,2025-04-28,2026-04-28,Cobertura amplia,Chevrolet Cruze,2021,12614,600,Vencido,1,1
+P00000468,2025-01-17,2026-01-17,Cobertura total,Toyota Corolla,1995,44383,700,Vencido,0,0
+P00000469,2022-11-27,2023-11-27,Cobertura de colisión,Chevrolet Cruze,2017,24599,500,Vencido,1,1
+P00000470,2022-10-09,2023-10-09,Cobertura de colisión,Ford Focus,1992,30911,500,Al día,0,1
+P00000471,2023-02-09,2024-02-09,Cobertura de colisión,Honda Civic,2005,17052,700,Al día,0,0
+P00000472,2025-11-05,2026-11-05,Cobertura total,Hyundai Elantra,2012,28625,600,Vencido,0,1
+P00000473,2025-06-07,2026-06-07,Responsabilidad civil,Honda Civic,2014,40115,500,Vencido,1,0
+P00000474,2022-09-06,2023-09-06,Cobertura amplia,Chevrolet Cruze,2020,43112,600,Al día,0,0
+P00000475,2023-01-29,2024-01-29,Cobertura de colisión,Toyota Corolla,2002,35560,500,Vencido,1,1
+P00000476,2024-12-06,2025-12-06,Responsabilidad civil,Mazda 3,2021,17778,600,Al día,0,1
+P00000477,2020-11-13,2021-11-13,Cobertura de colisión,Hyundai Elantra,2010,11811,600,Al día,1,0
+P00000478,2023-03-16,2024-03-15,Cobertura amplia,Hyundai Elantra,2017,30855,500,Al día,0,0
+P00000479,2022-08-18,2023-08-18,Cobertura de colisión,Honda Civic,2013,31927,700,Al día,1,0
+P00000480,2023-01-17,2024-01-17,Cobertura de robo,Kia Forte,2001,23631,700,Al día,1,1
+P00000481,2023-10-07,2024-10-06,Cobertura total,Ford Focus,2017,29835,500,Vencido,0,0
+P00000482,2023-08-02,2024-08-01,Cobertura de robo,Subaru Impreza,2004,18883,700,Al día,1,0
+P00000483,2020-11-26,2021-11-26,Cobertura total,Subaru Impreza,2001,20417,600,Vencido,1,0
+P00000484,2021-07-20,2022-07-20,Cobertura de robo,Kia Forte,2014,39535,600,Al día,0,0
+P00000485,2021-09-09,2022-09-09,Cobertura total,Toyota Corolla,2011,49793,600,Al día,1,0
+P00000486,2022-08-05,2023-08-05,Cobertura amplia,Toyota Corolla,2007,30442,600,Vencido,0,0
+P00000487,2024-04-17,2025-04-17,Cobertura de colisión,Chevrolet Cruze,1998,22311,500,Vencido,0,0
+P00000488,2021-09-17,2022-09-17,Cobertura de colisión,Toyota Corolla,1991,22976,600,Al día,0,1
+P00000489,2022-05-26,2023-05-26,Cobertura de colisión,Honda Civic,2013,24090,500,Vencido,1,1
+P00000490,2020-09-20,2021-09-20,Cobertura de robo,Volkswagen Jetta,2018,28797,500,Vencido,1,1
+P00000491,2024-08-26,2025-08-26,Responsabilidad civil,Chevrolet Cruze,2016,12687,600,Vencido,0,1
+P00000492,2024-07-27,2025-07-27,Cobertura amplia,Ford Focus,2004,15292,500,Vencido,1,0
+P00000493,2023-09-17,2024-09-16,Cobertura total,Subaru Impreza,1993,22650,500,Vencido,0,0
+P00000494,2025-03-23,2026-03-23,Responsabilidad civil,Toyota Corolla,1998,11383,600,Vencido,1,1
+P00000495,2024-08-30,2025-08-30,Cobertura de colisión,Toyota Corolla,2012,39464,700,Al día,0,1
+P00000496,2020-09-12,2021-09-12,Responsabilidad civil,Chevrolet Cruze,1993,41568,500,Al día,1,0
+P00000497,2022-04-27,2023-04-27,Responsabilidad civil,Hyundai Elantra,1990,23766,600,Vencido,1,0
+P00000498,2024-09-16,2025-09-16,Responsabilidad civil,Subaru Impreza,2013,29979,500,Al día,1,1
+P00000499,2024-05-14,2025-05-14,Cobertura de robo,Toyota Corolla,2017,15347,700,Vencido,0,1
+P00000500,2020-03-21,2021-03-21,Cobertura de robo,Toyota Corolla,2006,47250,700,Vencido,0,0
+P00000501,2024-04-07,2025-04-07,Cobertura total,Chevrolet Cruze,2006,25470,500,Al día,1,0
+P00000502,2025-05-07,2026-05-07,Responsabilidad civil,Kia Forte,2000,39481,600,Vencido,0,1
+P00000503,2020-01-25,2021-01-24,Responsabilidad civil,Chevrolet Cruze,2019,16419,500,Al día,1,0
+P00000504,2023-12-11,2024-12-10,Cobertura amplia,Nissan Sentra,2012,19831,700,Al día,0,0
+P00000505,2023-05-08,2024-05-07,Cobertura total,Ford Focus,1998,47819,600,Vencido,1,1
+P00000506,2024-05-16,2025-05-16,Cobertura amplia,Toyota Corolla,2010,37739,500,Al día,1,1
+P00000507,2024-09-12,2025-09-12,Cobertura de robo,Mazda 3,1995,20107,700,Al día,1,1
+P00000508,2022-06-22,2023-06-22,Cobertura amplia,Toyota Corolla,2000,47070,700,Al día,0,1
+P00000509,2025-06-22,2026-06-22,Cobertura total,Kia Forte,2011,12447,700,Vencido,0,0
+P00000510,2022-06-17,2023-06-17,Cobertura de colisión,Mazda 3,2008,24883,600,Al día,0,1
+P00000511,2023-01-22,2024-01-22,Cobertura total,Chevrolet Cruze,2016,21897,500,Vencido,0,0
+P00000512,2024-11-20,2025-11-20,Cobertura de robo,Honda Civic,2001,34835,700,Al día,0,1
+P00000513,2025-06-12,2026-06-12,Cobertura de robo,Ford Focus,2012,36605,700,Vencido,0,0
+P00000514,2020-04-28,2021-04-28,Responsabilidad civil,Subaru Impreza,2006,38758,500,Al día,0,1
+P00000515,2024-05-11,2025-05-11,Cobertura amplia,Nissan Sentra,2005,24021,600,Al día,1,1
+P00000516,2023-10-08,2024-10-07,Responsabilidad civil,Mazda 3,2017,41361,500,Vencido,1,1
+P00000517,2024-07-14,2025-07-14,Cobertura total,Honda Civic,2013,15010,700,Al día,1,0
+P00000518,2021-11-07,2022-11-07,Cobertura total,Subaru Impreza,2022,16258,700,Vencido,1,1
+P00000519,2025-03-29,2026-03-29,Cobertura de colisión,Mazda 3,2005,42198,600,Vencido,1,1
+P00000520,2021-06-06,2022-06-06,Cobertura total,Honda Civic,1992,38183,500,Al día,1,1
+P00000521,2025-12-27,2026-12-27,Cobertura amplia,Ford Focus,1990,17093,500,Al día,1,1
+P00000522,2020-04-20,2021-04-20,Cobertura amplia,Honda Civic,2006,26154,600,Vencido,0,1
+P00000523,2024-06-01,2025-06-01,Responsabilidad civil,Kia Forte,2003,28753,500,Vencido,1,0
+P00000524,2020-04-21,2021-04-21,Cobertura de colisión,Honda Civic,2002,48651,500,Vencido,0,0
+P00000525,2020-12-09,2021-12-09,Cobertura de colisión,Chevrolet Cruze,2010,11745,600,Al día,1,1
+P00000526,2024-10-21,2025-10-21,Cobertura de robo,Subaru Impreza,1998,49185,700,Al día,1,0
+P00000527,2021-07-09,2022-07-09,Cobertura de colisión,Nissan Sentra,2003,32894,600,Vencido,0,1
+P00000528,2025-03-06,2026-03-06,Responsabilidad civil,Toyota Corolla,2015,21894,500,Vencido,1,1
+P00000529,2022-01-14,2023-01-14,Cobertura amplia,Toyota Corolla,2005,16319,700,Vencido,1,1
+P00000530,2020-07-24,2021-07-24,Cobertura de robo,Hyundai Elantra,1995,19493,600,Al día,0,1
+P00000531,2022-12-01,2023-12-01,Cobertura de colisión,Toyota Corolla,2001,41771,600,Al día,1,1
+P00000532,2024-04-01,2025-04-01,Cobertura de robo,Chevrolet Cruze,1998,40679,500,Vencido,1,0
+P00000533,2023-09-02,2024-09-01,Cobertura de robo,Hyundai Elantra,2014,38426,700,Vencido,0,1
+P00000534,2022-05-16,2023-05-16,Cobertura amplia,Ford Focus,2002,21270,700,Vencido,0,0
+P00000535,2025-02-05,2026-02-05,Responsabilidad civil,Ford Focus,2007,32420,500,Vencido,1,0
+P00000536,2023-08-31,2024-08-30,Cobertura de robo,Chevrolet Cruze,2014,19991,600,Vencido,0,0
+P00000537,2023-10-14,2024-10-13,Cobertura total,Subaru Impreza,1999,14381,600,Al día,1,1
+P00000538,2024-04-01,2025-04-01,Cobertura amplia,Honda Civic,1994,12141,500,Vencido,0,1
+P00000539,2023-02-13,2024-02-13,Cobertura de robo,Honda Civic,2008,32699,500,Vencido,1,0
+P00000540,2024-09-22,2025-09-22,Cobertura total,Kia Forte,2011,20202,600,Al día,1,1
+P00000541,2022-10-30,2023-10-30,Cobertura de robo,Honda Civic,2016,34820,700,Vencido,1,1
+P00000542,2020-12-01,2021-12-01,Cobertura de robo,Nissan Sentra,2004,24996,600,Al día,0,1
+P00000543,2025-04-10,2026-04-10,Cobertura de robo,Volkswagen Jetta,2014,42273,500,Vencido,0,0
+P00000544,2020-03-20,2021-03-20,Cobertura total,Kia Forte,2007,12406,500,Al día,0,0
+P00000545,2020-08-01,2021-08-01,Cobertura amplia,Toyota Corolla,1996,45997,600,Vencido,0,0
+P00000546,2023-12-04,2024-12-03,Cobertura de robo,Toyota Corolla,2011,24575,500,Al día,0,1
+P00000547,2022-07-07,2023-07-07,Cobertura total,Ford Focus,2001,38444,600,Al día,0,1
+P00000548,2020-10-08,2021-10-08,Cobertura de robo,Volkswagen Jetta,2004,33270,700,Vencido,1,1
+P00000549,2020-06-13,2021-06-13,Cobertura de colisión,Subaru Impreza,1990,40495,700,Al día,1,0
+P00000550,2020-05-07,2021-05-07,Cobertura de robo,Ford Focus,2003,25271,600,Al día,1,1
+P00000551,2022-10-09,2023-10-09,Responsabilidad civil,Nissan Sentra,2007,32542,600,Vencido,1,0
+P00000552,2022-03-27,2023-03-27,Cobertura de robo,Toyota Corolla,1997,34792,500,Vencido,0,1
+P00000553,2020-03-24,2021-03-24,Responsabilidad civil,Volkswagen Jetta,2014,40323,600,Al día,1,1
+P00000554,2021-09-16,2022-09-16,Cobertura de colisión,Hyundai Elantra,2009,26153,700,Al día,0,0
+P00000555,2022-09-04,2023-09-04,Cobertura de robo,Honda Civic,2006,10329,700,Vencido,0,1
+P00000556,2021-06-01,2022-06-01,Cobertura amplia,Nissan Sentra,2021,47703,600,Al día,1,0
+P00000557,2025-04-23,2026-04-23,Cobertura de robo,Nissan Sentra,2013,20839,600,Vencido,1,0
+P00000558,2021-04-13,2022-04-13,Cobertura de robo,Kia Forte,1999,24586,600,Vencido,0,0
+P00000559,2022-06-11,2023-06-11,Cobertura de colisión,Volkswagen Jetta,1995,33336,600,Al día,1,0
+P00000560,2025-03-19,2026-03-19,Cobertura total,Hyundai Elantra,1999,17196,700,Al día,0,0
+P00000561,2022-11-15,2023-11-15,Responsabilidad civil,Subaru Impreza,2019,33951,700,Vencido,1,0
+P00000562,2024-02-19,2025-02-18,Cobertura total,Volkswagen Jetta,2015,32610,500,Vencido,1,1
+P00000563,2021-11-18,2022-11-18,Cobertura amplia,Nissan Sentra,2014,44276,500,Al día,0,1
+P00000564,2021-04-14,2022-04-14,Cobertura amplia,Kia Forte,2001,44747,500,Vencido,0,0
+P00000565,2021-11-01,2022-11-01,Cobertura de colisión,Toyota Corolla,2000,10733,500,Vencido,1,0
+P00000566,2023-06-28,2024-06-27,Cobertura total,Toyota Corolla,2010,12323,500,Vencido,1,1
+P00000567,2021-03-18,2022-03-18,Cobertura amplia,Nissan Sentra,2007,22138,500,Vencido,1,0
+P00000568,2020-04-15,2021-04-15,Cobertura amplia,Toyota Corolla,2013,33542,700,Vencido,1,1
+P00000569,2023-07-01,2024-06-30,Responsabilidad civil,Kia Forte,1991,31113,700,Al día,1,0
+P00000570,2024-03-17,2025-03-17,Cobertura amplia,Honda Civic,2007,31255,500,Al día,1,1
+P00000571,2024-06-12,2025-06-12,Cobertura de robo,Toyota Corolla,2001,37470,700,Vencido,0,1
+P00000572,2022-03-23,2023-03-23,Cobertura de robo,Kia Forte,2022,38461,600,Vencido,0,1
+P00000573,2020-11-07,2021-11-07,Cobertura de robo,Ford Focus,2013,42217,600,Al día,1,1
+P00000574,2022-09-21,2023-09-21,Responsabilidad civil,Hyundai Elantra,1996,44669,500,Vencido,1,1
+P00000575,2021-02-21,2022-02-21,Cobertura de robo,Hyundai Elantra,2016,27229,500,Vencido,0,0
+P00000576,2023-05-20,2024-05-19,Cobertura de colisión,Nissan Sentra,2021,30880,600,Vencido,0,0
+P00000577,2021-05-10,2022-05-10,Cobertura de robo,Subaru Impreza,2018,32319,500,Vencido,0,0
+P00000578,2020-06-17,2021-06-17,Cobertura amplia,Honda Civic,2005,16001,600,Vencido,1,0
+P00000579,2023-11-23,2024-11-22,Cobertura total,Toyota Corolla,2001,14621,500,Al día,1,0
+P00000580,2025-12-22,2026-12-22,Cobertura total,Kia Forte,2009,34608,700,Vencido,0,0
+P00000581,2024-10-20,2025-10-20,Cobertura de robo,Chevrolet Cruze,2015,48608,600,Al día,1,0
+P00000582,2024-02-26,2025-02-25,Cobertura amplia,Mazda 3,2018,33256,600,Vencido,0,1
+P00000583,2020-10-09,2021-10-09,Cobertura amplia,Volkswagen Jetta,1993,18121,500,Al día,0,0
+P00000584,2025-09-03,2026-09-03,Cobertura de colisión,Ford Focus,2019,20661,600,Al día,0,1
+P00000585,2023-10-29,2024-10-28,Cobertura de robo,Chevrolet Cruze,2007,19968,600,Vencido,0,1
+P00000586,2020-02-21,2021-02-20,Cobertura amplia,Mazda 3,2005,30651,500,Al día,1,0
+P00000587,2024-09-16,2025-09-16,Cobertura amplia,Subaru Impreza,2010,10343,600,Vencido,1,0
+P00000588,2025-06-30,2026-06-30,Cobertura total,Hyundai Elantra,2003,39742,700,Vencido,0,1
+P00000589,2021-03-08,2022-03-08,Cobertura total,Honda Civic,2020,41034,700,Vencido,1,1
+P00000590,2024-11-10,2025-11-10,Cobertura de colisión,Subaru Impreza,2004,23690,700,Vencido,1,0
+P00000591,2024-01-23,2025-01-22,Cobertura de robo,Kia Forte,1995,22720,500,Vencido,0,0
+P00000592,2025-02-26,2026-02-26,Cobertura total,Honda Civic,1999,42327,500,Vencido,0,1
+P00000593,2021-09-18,2022-09-18,Cobertura de robo,Volkswagen Jetta,2013,42723,500,Vencido,0,1
+P00000594,2024-11-18,2025-11-18,Cobertura de robo,Honda Civic,2014,15612,600,Vencido,1,1
+P00000595,2021-12-22,2022-12-22,Cobertura amplia,Chevrolet Cruze,2005,30831,700,Vencido,1,0
+P00000596,2025-11-07,2026-11-07,Cobertura de robo,Honda Civic,2010,34689,600,Vencido,0,0
+P00000597,2023-01-11,2024-01-11,Cobertura amplia,Ford Focus,2008,45666,700,Vencido,0,0
+P00000598,2025-06-03,2026-06-03,Cobertura amplia,Hyundai Elantra,1994,24103,600,Al día,0,0
+P00000599,2025-03-19,2026-03-19,Responsabilidad civil,Ford Focus,2015,35831,500,Vencido,1,0
+P00000600,2024-11-19,2025-11-19,Cobertura de robo,Nissan Sentra,1990,22070,700,Vencido,1,0
+P00000601,2023-01-04,2024-01-04,Cobertura de colisión,Volkswagen Jetta,2021,46556,500,Al día,0,0
+P00000602,2023-08-13,2024-08-12,Cobertura de robo,Chevrolet Cruze,2017,17937,500,Vencido,1,0
+P00000603,2022-10-02,2023-10-02,Cobertura de robo,Toyota Corolla,2011,41577,500,Vencido,0,1
+P00000604,2020-12-20,2021-12-20,Cobertura de colisión,Toyota Corolla,2004,43695,500,Al día,0,1
+P00000605,2023-02-16,2024-02-16,Cobertura total,Nissan Sentra,1996,44863,500,Al día,0,1
+P00000606,2025-01-20,2026-01-20,Cobertura total,Subaru Impreza,1997,10683,600,Al día,0,1
+P00000607,2022-09-25,2023-09-25,Cobertura de colisión,Volkswagen Jetta,1999,37403,700,Vencido,1,1
+P00000608,2025-03-18,2026-03-18,Cobertura de robo,Chevrolet Cruze,1998,34133,600,Vencido,1,1
+P00000609,2024-04-01,2025-04-01,Cobertura de robo,Hyundai Elantra,1994,43679,700,Vencido,1,0
+P00000610,2023-10-09,2024-10-08,Cobertura total,Ford Focus,2021,45874,500,Al día,1,1
+P00000611,2020-04-27,2021-04-27,Responsabilidad civil,Toyota Corolla,1991,10251,500,Vencido,0,0
+P00000612,2025-07-17,2026-07-17,Cobertura de robo,Ford Focus,1992,39700,600,Al día,1,0
+P00000613,2023-08-24,2024-08-23,Cobertura amplia,Toyota Corolla,2003,24376,500,Vencido,0,1
+P00000614,2022-01-14,2023-01-14,Cobertura de robo,Nissan Sentra,2020,41076,700,Al día,1,1
+P00000615,2025-06-20,2026-06-20,Cobertura total,Volkswagen Jetta,1999,23226,600,Vencido,0,0
+P00000616,2022-05-18,2023-05-18,Responsabilidad civil,Honda Civic,2020,24028,500,Al día,1,0
+P00000617,2023-12-24,2024-12-23,Cobertura de robo,Honda Civic,2021,17593,600,Al día,1,1
+P00000618,2022-11-24,2023-11-24,Cobertura de robo,Mazda 3,2006,20173,700,Al día,1,0
+P00000619,2023-10-26,2024-10-25,Cobertura amplia,Honda Civic,2017,14678,500,Al día,0,1
+P00000620,2023-02-19,2024-02-19,Cobertura de robo,Honda Civic,2002,45422,700,Vencido,1,0
+P00000621,2023-02-05,2024-02-05,Cobertura total,Honda Civic,2019,39090,700,Al día,0,1
+P00000622,2020-02-11,2021-02-10,Cobertura amplia,Toyota Corolla,2001,42328,500,Al día,1,1
+P00000623,2025-10-17,2026-10-17,Cobertura total,Subaru Impreza,1993,49823,500,Al día,1,0
+P00000624,2022-02-21,2023-02-21,Cobertura total,Mazda 3,2016,31631,600,Al día,1,0
+P00000625,2020-12-16,2021-12-16,Cobertura de colisión,Chevrolet Cruze,2010,21926,500,Vencido,1,1
+P00000626,2022-09-15,2023-09-15,Responsabilidad civil,Chevrolet Cruze,2003,26699,600,Al día,1,1
+P00000627,2024-07-22,2025-07-22,Cobertura de robo,Toyota Corolla,1992,20227,700,Al día,1,1
+P00000628,2025-06-24,2026-06-24,Cobertura amplia,Honda Civic,1996,29121,600,Al día,0,1
+P00000629,2022-09-11,2023-09-11,Cobertura de colisión,Toyota Corolla,2014,40551,600,Vencido,0,1
+P00000630,2025-05-04,2026-05-04,Cobertura de robo,Honda Civic,2018,41443,500,Al día,0,1
+P00000631,2025-07-03,2026-07-03,Cobertura amplia,Toyota Corolla,2021,27097,700,Vencido,0,1
+P00000632,2025-01-09,2026-01-09,Cobertura de colisión,Mazda 3,2014,38739,700,Vencido,1,1
+P00000633,2020-03-11,2021-03-11,Cobertura total,Honda Civic,2008,42795,700,Al día,0,0
+P00000634,2021-01-16,2022-01-16,Cobertura total,Volkswagen Jetta,2018,10166,600,Vencido,1,1
+P00000635,2023-04-20,2024-04-19,Responsabilidad civil,Ford Focus,2021,17595,700,Vencido,0,0
+P00000636,2022-06-26,2023-06-26,Cobertura amplia,Hyundai Elantra,1990,44829,700,Vencido,0,0
+P00000637,2024-07-14,2025-07-14,Cobertura de robo,Kia Forte,1997,25520,700,Vencido,1,1
+P00000638,2022-09-23,2023-09-23,Cobertura total,Mazda 3,2007,29018,600,Al día,1,0
+P00000639,2023-06-08,2024-06-07,Responsabilidad civil,Subaru Impreza,2022,42833,600,Al día,0,1
+P00000640,2024-02-20,2025-02-19,Cobertura amplia,Chevrolet Cruze,2005,44880,700,Al día,0,1
+P00000641,2025-04-22,2026-04-22,Responsabilidad civil,Toyota Corolla,2007,29520,700,Al día,0,1
+P00000642,2025-12-14,2026-12-14,Cobertura de robo,Chevrolet Cruze,2013,49954,500,Vencido,0,1
+P00000643,2023-11-09,2024-11-08,Cobertura amplia,Toyota Corolla,2000,31193,600,Vencido,0,0
+P00000644,2024-10-08,2025-10-08,Cobertura de colisión,Chevrolet Cruze,2012,48196,700,Vencido,0,0
+P00000645,2023-09-16,2024-09-15,Cobertura amplia,Hyundai Elantra,2012,47933,500,Vencido,1,0
+P00000646,2023-12-12,2024-12-11,Cobertura de robo,Subaru Impreza,2004,15749,700,Vencido,1,0
+P00000647,2025-02-01,2026-02-01,Cobertura amplia,Volkswagen Jetta,2004,15149,500,Al día,1,1
+P00000648,2023-01-14,2024-01-14,Cobertura amplia,Honda Civic,1999,16543,500,Vencido,0,1
+P00000649,2023-06-09,2024-06-08,Cobertura total,Toyota Corolla,1991,42243,500,Vencido,0,1
+P00000650,2022-10-26,2023-10-26,Cobertura de robo,Toyota Corolla,1996,49539,700,Al día,0,0
+P00000651,2022-08-02,2023-08-02,Responsabilidad civil,Ford Focus,2010,35962,700,Vencido,1,0
+P00000652,2021-05-09,2022-05-09,Cobertura de colisión,Ford Focus,2004,34064,700,Vencido,0,1
+P00000653,2022-02-27,2023-02-27,Cobertura amplia,Subaru Impreza,2020,42464,600,Vencido,0,0
+P00000654,2023-07-16,2024-07-15,Cobertura amplia,Nissan Sentra,2022,37003,700,Al día,0,0
+P00000655,2021-05-04,2022-05-04,Cobertura de robo,Chevrolet Cruze,2020,41861,600,Vencido,0,0
+P00000656,2022-01-28,2023-01-28,Cobertura total,Mazda 3,2002,42793,600,Al día,1,0
+P00000657,2022-02-23,2023-02-23,Cobertura total,Honda Civic,2019,45527,700,Vencido,1,0
+P00000658,2022-06-05,2023-06-05,Cobertura de robo,Chevrolet Cruze,2011,37247,700,Al día,0,0
+P00000659,2025-06-06,2026-06-06,Cobertura amplia,Kia Forte,2002,38225,500,Vencido,0,0
+P00000660,2023-02-06,2024-02-06,Cobertura total,Honda Civic,1991,12059,500,Vencido,1,1
+P00000661,2025-11-18,2026-11-18,Cobertura total,Toyota Corolla,2022,39611,500,Al día,0,0
+P00000662,2023-03-05,2024-03-04,Cobertura de colisión,Toyota Corolla,1993,42948,600,Al día,0,0
+P00000663,2021-02-15,2022-02-15,Cobertura de robo,Volkswagen Jetta,1993,21980,600,Al día,0,1
+P00000664,2022-03-06,2023-03-06,Cobertura amplia,Subaru Impreza,2001,48348,700,Vencido,0,0
+P00000665,2023-04-28,2024-04-27,Responsabilidad civil,Mazda 3,2009,39591,600,Vencido,1,0
+P00000666,2022-07-20,2023-07-20,Cobertura amplia,Toyota Corolla,1996,26843,500,Al día,0,1
+P00000667,2024-01-18,2025-01-17,Cobertura de robo,Nissan Sentra,2007,31617,700,Al día,0,1
+P00000668,2022-01-04,2023-01-04,Cobertura de robo,Toyota Corolla,2008,30059,700,Vencido,0,1
+P00000669,2023-05-23,2024-05-22,Cobertura de colisión,Volkswagen Jetta,1999,19665,700,Vencido,1,1
+P00000670,2020-02-27,2021-02-26,Cobertura amplia,Toyota Corolla,2011,37724,600,Vencido,1,0
+P00000671,2025-12-27,2026-12-27,Cobertura amplia,Chevrolet Cruze,2013,13183,600,Al día,0,0
+P00000672,2021-06-02,2022-06-02,Responsabilidad civil,Volkswagen Jetta,2021,23983,600,Al día,1,1
+P00000673,2023-01-28,2024-01-28,Cobertura de colisión,Kia Forte,1998,14256,700,Vencido,1,0
+P00000674,2020-07-05,2021-07-05,Cobertura de colisión,Nissan Sentra,2008,49707,600,Vencido,1,0
+P00000675,2020-08-11,2021-08-11,Cobertura total,Hyundai Elantra,1994,21316,700,Vencido,1,1
+P00000676,2023-04-11,2024-04-10,Cobertura amplia,Ford Focus,2016,11361,600,Vencido,0,1
+P00000677,2021-06-01,2022-06-01,Cobertura de robo,Hyundai Elantra,2022,11853,700,Vencido,0,1
+P00000678,2025-07-03,2026-07-03,Cobertura amplia,Hyundai Elantra,2006,40026,700,Al día,1,1
+P00000679,2021-02-24,2022-02-24,Cobertura total,Nissan Sentra,2022,28124,700,Al día,0,0
+P00000680,2020-02-20,2021-02-19,Responsabilidad civil,Volkswagen Jetta,2005,21442,500,Al día,0,1
+P00000681,2023-03-10,2024-03-09,Cobertura total,Honda Civic,2009,45311,700,Vencido,0,0
+P00000682,2025-04-06,2026-04-06,Cobertura amplia,Toyota Corolla,2017,12394,600,Al día,1,0
+P00000683,2025-05-14,2026-05-14,Responsabilidad civil,Subaru Impreza,2014,31293,600,Vencido,1,0
+P00000684,2024-12-09,2025-12-09,Responsabilidad civil,Hyundai Elantra,2020,34723,700,Vencido,0,0
+P00000685,2023-10-27,2024-10-26,Cobertura amplia,Hyundai Elantra,2002,44331,500,Al día,1,1
+P00000686,2022-01-25,2023-01-25,Cobertura amplia,Honda Civic,1995,36958,600,Al día,0,0
+P00000687,2020-07-29,2021-07-29,Cobertura de colisión,Nissan Sentra,2001,27989,500,Vencido,0,1
+P00000688,2022-10-31,2023-10-31,Cobertura amplia,Honda Civic,2006,32663,500,Vencido,1,0
+P00000689,2025-05-10,2026-05-10,Cobertura de colisión,Honda Civic,2018,16112,500,Al día,0,1
+P00000690,2021-04-12,2022-04-12,Cobertura amplia,Hyundai Elantra,2012,46891,700,Vencido,1,0
+P00000691,2020-09-24,2021-09-24,Cobertura de colisión,Subaru Impreza,1996,30824,600,Vencido,0,0
+P00000692,2024-06-29,2025-06-29,Cobertura amplia,Chevrolet Cruze,1996,15125,700,Al día,1,1
+P00000693,2025-07-07,2026-07-07,Cobertura amplia,Honda Civic,1991,48363,500,Al día,1,0
+P00000694,2020-10-30,2021-10-30,Cobertura de robo,Toyota Corolla,2006,44341,500,Vencido,0,1
+P00000695,2020-08-07,2021-08-07,Cobertura de colisión,Honda Civic,2019,46776,600,Al día,0,0
+P00000696,2021-09-13,2022-09-13,Cobertura de colisión,Toyota Corolla,2014,41238,600,Vencido,0,1
+P00000697,2021-09-03,2022-09-03,Cobertura amplia,Nissan Sentra,2007,48678,500,Vencido,1,0
+P00000698,2023-05-29,2024-05-28,Responsabilidad civil,Toyota Corolla,1995,45248,600,Al día,1,0
+P00000699,2020-12-14,2021-12-14,Cobertura total,Mazda 3,2013,10601,600,Vencido,0,1
+P00000700,2022-10-13,2023-10-13,Cobertura de colisión,Subaru Impreza,2005,49605,700,Al día,1,1
+P00000701,2021-04-30,2022-04-30,Cobertura total,Hyundai Elantra,2019,37299,700,Al día,0,0
+P00000702,2024-08-31,2025-08-31,Cobertura de robo,Subaru Impreza,2012,39234,700,Al día,1,0
+P00000703,2022-07-13,2023-07-13,Responsabilidad civil,Chevrolet Cruze,2012,41936,600,Al día,0,0
+P00000704,2025-11-10,2026-11-10,Cobertura de robo,Nissan Sentra,2004,23122,700,Vencido,0,0
+P00000705,2024-04-07,2025-04-07,Cobertura total,Toyota Corolla,2019,13638,700,Vencido,1,1
+P00000706,2025-01-19,2026-01-19,Cobertura total,Toyota Corolla,2000,36474,500,Al día,1,1
+P00000707,2024-12-18,2025-12-18,Cobertura de robo,Subaru Impreza,1995,35854,500,Al día,0,0
+P00000708,2023-05-02,2024-05-01,Cobertura amplia,Toyota Corolla,1990,25382,600,Al día,0,1
+P00000709,2024-10-22,2025-10-22,Cobertura de robo,Nissan Sentra,1994,45965,500,Al día,1,0
+P00000710,2023-06-04,2024-06-03,Cobertura de robo,Honda Civic,2016,33747,500,Al día,0,0
+P00000711,2020-09-03,2021-09-03,Cobertura total,Toyota Corolla,2009,11826,500,Vencido,0,1
+P00000712,2021-02-10,2022-02-10,Cobertura amplia,Toyota Corolla,2010,20886,700,Al día,1,1
+P00000713,2022-05-01,2023-05-01,Responsabilidad civil,Toyota Corolla,2017,33215,500,Al día,0,0
+P00000714,2022-05-14,2023-05-14,Responsabilidad civil,Mazda 3,2002,20789,600,Al día,0,0
+P00000715,2022-12-19,2023-12-19,Cobertura amplia,Volkswagen Jetta,2001,35751,700,Al día,1,0
+P00000716,2020-11-28,2021-11-28,Cobertura de colisión,Subaru Impreza,1999,49015,700,Al día,1,1
+P00000717,2021-10-05,2022-10-05,Cobertura total,Hyundai Elantra,2006,40496,500,Al día,0,1
+P00000718,2022-09-09,2023-09-09,Cobertura de robo,Toyota Corolla,2009,39431,700,Al día,0,1
+P00000719,2021-12-12,2022-12-12,Cobertura total,Honda Civic,2013,27530,600,Al día,1,0
+P00000720,2020-11-03,2021-11-03,Cobertura total,Chevrolet Cruze,2007,46256,700,Vencido,1,1
+P00000721,2021-10-03,2022-10-03,Cobertura amplia,Hyundai Elantra,1992,33262,600,Vencido,0,1
+P00000722,2020-01-11,2021-01-10,Cobertura total,Nissan Sentra,2013,26314,700,Vencido,0,1
+P00000723,2024-07-31,2025-07-31,Cobertura total,Toyota Corolla,1991,19697,500,Al día,0,1
+P00000724,2025-01-19,2026-01-19,Responsabilidad civil,Honda Civic,2002,34055,600,Vencido,0,0
+P00000725,2025-04-08,2026-04-08,Responsabilidad civil,Kia Forte,2008,20695,700,Al día,0,0
+P00000726,2023-04-07,2024-04-06,Cobertura de colisión,Subaru Impreza,2018,49309,700,Vencido,1,0
+P00000727,2020-05-13,2021-05-13,Responsabilidad civil,Ford Focus,2020,43666,600,Vencido,0,0
+P00000728,2022-08-06,2023-08-06,Cobertura de colisión,Ford Focus,1993,36174,500,Al día,0,0
+P00000729,2023-03-26,2024-03-25,Cobertura total,Toyota Corolla,2009,14367,500,Al día,1,0
+P00000730,2023-03-04,2024-03-03,Cobertura de robo,Toyota Corolla,1992,40044,700,Vencido,0,0
+P00000731,2025-02-02,2026-02-02,Cobertura de colisión,Kia Forte,2022,18220,500,Al día,0,0
+P00000732,2020-10-18,2021-10-18,Cobertura de colisión,Ford Focus,2021,34117,500,Al día,1,0
+P00000733,2022-08-14,2023-08-14,Responsabilidad civil,Toyota Corolla,2002,21011,500,Vencido,1,1
+P00000734,2022-12-19,2023-12-19,Cobertura de robo,Ford Focus,2003,43801,500,Vencido,1,0
+P00000735,2022-03-21,2023-03-21,Responsabilidad civil,Chevrolet Cruze,2001,37739,600,Vencido,1,0
+P00000736,2024-10-07,2025-10-07,Cobertura de robo,Honda Civic,1991,28259,600,Al día,1,0
+P00000737,2021-04-15,2022-04-15,Cobertura de colisión,Chevrolet Cruze,2021,34272,600,Al día,0,0
+P00000738,2022-07-09,2023-07-09,Cobertura de robo,Nissan Sentra,2019,31888,500,Vencido,0,0
+P00000739,2021-09-02,2022-09-02,Cobertura total,Hyundai Elantra,1999,14262,700,Al día,1,0
+P00000740,2022-12-24,2023-12-24,Cobertura total,Kia Forte,2009,26132,700,Al día,1,1
+P00000741,2021-08-05,2022-08-05,Cobertura de robo,Mazda 3,1991,17073,600,Al día,1,0
+P00000742,2020-10-19,2021-10-19,Cobertura total,Hyundai Elantra,1995,17934,500,Al día,0,1
+P00000743,2020-09-01,2021-09-01,Cobertura de robo,Chevrolet Cruze,1998,40251,700,Al día,1,1
+P00000744,2021-11-10,2022-11-10,Responsabilidad civil,Ford Focus,1990,27998,700,Vencido,1,1
+P00000745,2023-06-13,2024-06-12,Cobertura de colisión,Honda Civic,2011,28475,500,Vencido,0,0
+P00000746,2023-03-28,2024-03-27,Cobertura amplia,Honda Civic,2008,36535,500,Vencido,0,1
+P00000747,2024-12-03,2025-12-03,Cobertura amplia,Subaru Impreza,2009,29447,600,Al día,1,1
+P00000748,2021-05-24,2022-05-24,Cobertura de colisión,Volkswagen Jetta,1997,29329,500,Vencido,1,0
+P00000749,2025-04-03,2026-04-03,Responsabilidad civil,Honda Civic,2008,14362,700,Al día,0,0
+P00000750,2023-05-30,2024-05-29,Cobertura amplia,Volkswagen Jetta,2010,15892,600,Al día,1,1
+P00000751,2024-07-06,2025-07-06,Cobertura de colisión,Toyota Corolla,2020,18323,600,Vencido,0,1
+P00000752,2023-01-20,2024-01-20,Cobertura total,Ford Focus,2004,38340,500,Al día,0,0
+P00000753,2025-08-11,2026-08-11,Cobertura de robo,Honda Civic,2013,33096,600,Al día,0,0
+P00000754,2025-07-15,2026-07-15,Cobertura amplia,Chevrolet Cruze,2022,10666,500,Al día,1,1
+P00000755,2024-11-28,2025-11-28,Cobertura de colisión,Hyundai Elantra,1994,21569,700,Al día,1,1
+P00000756,2020-11-25,2021-11-25,Responsabilidad civil,Volkswagen Jetta,2015,42708,500,Al día,0,0
+P00000757,2020-06-12,2021-06-12,Cobertura total,Honda Civic,2016,46666,700,Vencido,0,1
+P00000758,2024-11-04,2025-11-04,Responsabilidad civil,Honda Civic,2018,31406,700,Al día,0,0
+P00000759,2023-08-13,2024-08-12,Responsabilidad civil,Kia Forte,2020,21219,500,Vencido,1,1
+P00000760,2022-10-22,2023-10-22,Responsabilidad civil,Nissan Sentra,2021,46037,700,Al día,1,0
+P00000761,2020-04-15,2021-04-15,Cobertura amplia,Volkswagen Jetta,2001,21052,600,Vencido,0,1
+P00000762,2021-01-09,2022-01-09,Cobertura total,Nissan Sentra,1994,43461,500,Vencido,1,0
+P00000763,2022-07-26,2023-07-26,Cobertura de colisión,Kia Forte,2016,45542,600,Al día,1,1
+P00000764,2020-03-25,2021-03-25,Cobertura total,Mazda 3,2019,20263,600,Al día,1,0
+P00000765,2023-01-08,2024-01-08,Responsabilidad civil,Toyota Corolla,2019,21966,700,Vencido,1,0
+P00000766,2020-06-13,2021-06-13,Cobertura amplia,Volkswagen Jetta,1996,10615,600,Vencido,0,1
+P00000767,2021-12-18,2022-12-18,Cobertura de colisión,Kia Forte,1990,44498,600,Vencido,0,1
+P00000768,2025-04-11,2026-04-11,Cobertura amplia,Toyota Corolla,2021,22293,700,Al día,1,0
+P00000769,2025-10-26,2026-10-26,Cobertura amplia,Toyota Corolla,1994,46817,700,Vencido,1,0
+P00000770,2024-12-16,2025-12-16,Cobertura amplia,Honda Civic,2003,44622,700,Vencido,1,0
+P00000771,2023-02-13,2024-02-13,Responsabilidad civil,Honda Civic,2009,16394,500,Al día,0,0
+P00000772,2022-01-13,2023-01-13,Cobertura de robo,Toyota Corolla,2011,24189,600,Vencido,1,1
+P00000773,2024-11-20,2025-11-20,Cobertura de colisión,Toyota Corolla,2020,36695,700,Al día,0,0
+P00000774,2025-07-07,2026-07-07,Responsabilidad civil,Subaru Impreza,2013,49745,700,Al día,0,0
+P00000775,2021-01-08,2022-01-08,Cobertura total,Toyota Corolla,1994,14099,700,Al día,1,1
+P00000776,2025-04-09,2026-04-09,Cobertura total,Hyundai Elantra,2002,14726,600,Vencido,1,0
+P00000777,2023-11-26,2024-11-25,Cobertura de robo,Chevrolet Cruze,1991,26670,600,Vencido,1,0
+P00000778,2024-07-30,2025-07-30,Responsabilidad civil,Volkswagen Jetta,2011,17023,500,Al día,1,0
+P00000779,2023-09-27,2024-09-26,Cobertura amplia,Toyota Corolla,1992,14186,500,Al día,1,1
+P00000780,2023-08-08,2024-08-07,Cobertura de robo,Nissan Sentra,1996,45995,600,Al día,1,1
+P00000781,2021-03-04,2022-03-04,Cobertura de robo,Nissan Sentra,2005,39520,600,Al día,0,1
+P00000782,2021-10-20,2022-10-20,Cobertura de colisión,Nissan Sentra,2016,16602,600,Vencido,0,1
+P00000783,2023-09-12,2024-09-11,Cobertura de colisión,Subaru Impreza,2004,29631,600,Al día,1,0
+P00000784,2024-08-13,2025-08-13,Cobertura de colisión,Volkswagen Jetta,2016,24384,600,Al día,0,0
+P00000785,2025-07-22,2026-07-22,Cobertura de robo,Subaru Impreza,1998,34070,500,Vencido,0,0
+P00000786,2023-03-26,2024-03-25,Responsabilidad civil,Toyota Corolla,2007,45273,700,Vencido,0,1
+P00000787,2024-06-28,2025-06-28,Cobertura amplia,Subaru Impreza,2007,17668,600,Al día,1,0
+P00000788,2020-05-30,2021-05-30,Cobertura total,Hyundai Elantra,1990,28103,500,Vencido,0,1
+P00000789,2025-02-05,2026-02-05,Cobertura de colisión,Chevrolet Cruze,2010,16674,700,Vencido,1,1
+P00000790,2020-12-26,2021-12-26,Cobertura de robo,Hyundai Elantra,1996,27609,500,Vencido,1,1
+P00000791,2023-07-12,2024-07-11,Cobertura de colisión,Subaru Impreza,2013,36229,700,Al día,1,0
+P00000792,2022-10-30,2023-10-30,Cobertura de robo,Chevrolet Cruze,1992,33231,500,Al día,1,0
+P00000793,2023-08-17,2024-08-16,Cobertura amplia,Honda Civic,1999,10332,600,Vencido,0,0
+P00000794,2021-04-19,2022-04-19,Cobertura de colisión,Nissan Sentra,2009,34273,700,Vencido,1,0
+P00000795,2024-07-13,2025-07-13,Cobertura amplia,Chevrolet Cruze,2006,10079,600,Al día,1,1
+P00000796,2025-10-08,2026-10-08,Responsabilidad civil,Chevrolet Cruze,1993,48281,700,Al día,0,1
+P00000797,2020-01-05,2021-01-04,Cobertura de robo,Honda Civic,1999,48225,600,Vencido,0,1
+P00000798,2025-03-07,2026-03-07,Cobertura de colisión,Subaru Impreza,2002,43965,600,Vencido,0,1
+P00000799,2024-08-19,2025-08-19,Cobertura de colisión,Honda Civic,2010,33690,500,Vencido,1,1
+P00000800,2020-08-10,2021-08-10,Cobertura amplia,Kia Forte,1991,32469,600,Al día,0,1
+P00000801,2022-02-07,2023-02-07,Cobertura amplia,Honda Civic,1997,25462,500,Vencido,1,1
+P00000802,2025-10-24,2026-10-24,Cobertura total,Honda Civic,2016,38536,500,Vencido,0,0
+P00000803,2024-01-21,2025-01-20,Cobertura total,Mazda 3,2008,40962,700,Al día,0,1
+P00000804,2025-08-03,2026-08-03,Cobertura amplia,Volkswagen Jetta,2017,42511,600,Vencido,1,1
+P00000805,2024-12-15,2025-12-15,Cobertura total,Toyota Corolla,2009,16324,700,Vencido,1,1
+P00000806,2020-07-30,2021-07-30,Responsabilidad civil,Toyota Corolla,2007,43541,600,Al día,1,0
+P00000807,2022-04-13,2023-04-13,Cobertura amplia,Ford Focus,1999,25526,700,Al día,1,0
+P00000808,2022-12-29,2023-12-29,Cobertura total,Subaru Impreza,1999,18795,600,Vencido,0,1
+P00000809,2021-06-20,2022-06-20,Cobertura de colisión,Kia Forte,2000,24906,700,Vencido,0,0
+P00000810,2023-03-25,2024-03-24,Cobertura total,Toyota Corolla,2007,12545,700,Al día,0,0
+P00000811,2024-11-29,2025-11-29,Cobertura total,Toyota Corolla,1998,29838,600,Al día,0,1
+P00000812,2025-06-08,2026-06-08,Responsabilidad civil,Honda Civic,2000,37902,500,Al día,1,1
+P00000813,2021-05-12,2022-05-12,Cobertura de robo,Volkswagen Jetta,2016,17009,700,Vencido,0,1
+P00000814,2020-04-28,2021-04-28,Cobertura de robo,Volkswagen Jetta,1996,42205,700,Al día,0,1
+P00000815,2022-09-07,2023-09-07,Cobertura de robo,Ford Focus,1998,13144,700,Al día,0,1
+P00000816,2021-10-10,2022-10-10,Cobertura de colisión,Toyota Corolla,1994,18413,700,Vencido,0,1
+P00000817,2023-06-26,2024-06-25,Responsabilidad civil,Honda Civic,1990,29763,500,Al día,0,0
+P00000818,2020-02-26,2021-02-25,Cobertura amplia,Honda Civic,1996,25786,700,Vencido,1,0
+P00000819,2024-07-29,2025-07-29,Responsabilidad civil,Toyota Corolla,2015,42843,500,Al día,0,0
+P00000820,2021-01-16,2022-01-16,Responsabilidad civil,Toyota Corolla,2015,14863,600,Al día,0,1
+P00000821,2022-07-09,2023-07-09,Responsabilidad civil,Honda Civic,2016,31597,700,Al día,1,1
+P00000822,2021-04-09,2022-04-09,Responsabilidad civil,Nissan Sentra,2001,18803,700,Vencido,1,0
+P00000823,2025-03-05,2026-03-05,Cobertura de robo,Hyundai Elantra,1991,14090,500,Al día,1,1
+P00000824,2021-04-26,2022-04-26,Cobertura de robo,Hyundai Elantra,1996,38054,700,Al día,1,0
+P00000825,2021-09-22,2022-09-22,Cobertura de robo,Chevrolet Cruze,2001,24246,700,Al día,1,1
+P00000826,2025-08-03,2026-08-03,Cobertura total,Chevrolet Cruze,1996,19040,600,Al día,0,1
+P00000827,2023-04-10,2024-04-09,Cobertura de colisión,Volkswagen Jetta,2001,45164,600,Vencido,0,0
+P00000828,2025-09-15,2026-09-15,Cobertura de robo,Hyundai Elantra,2018,19956,500,Al día,0,0
+P00000829,2023-01-24,2024-01-24,Cobertura amplia,Subaru Impreza,2015,27724,500,Vencido,0,1
+P00000830,2024-08-28,2025-08-28,Cobertura de colisión,Volkswagen Jetta,2021,47476,500,Al día,0,1
+P00000831,2025-05-30,2026-05-30,Cobertura total,Toyota Corolla,2000,32086,600,Vencido,1,0
+P00000832,2025-04-18,2026-04-18,Cobertura amplia,Toyota Corolla,2018,10320,700,Vencido,0,0
+P00000833,2022-09-25,2023-09-25,Cobertura de robo,Volkswagen Jetta,2012,33342,700,Al día,1,1
+P00000834,2025-02-13,2026-02-13,Responsabilidad civil,Chevrolet Cruze,2019,26176,700,Al día,1,1
+P00000835,2021-08-15,2022-08-15,Cobertura de robo,Ford Focus,2012,49733,500,Vencido,1,1
+P00000836,2024-04-20,2025-04-20,Cobertura de colisión,Honda Civic,2001,24374,600,Al día,0,1
+P00000837,2022-02-19,2023-02-19,Cobertura amplia,Hyundai Elantra,2008,23804,700,Al día,1,0
+P00000838,2025-09-12,2026-09-12,Cobertura amplia,Toyota Corolla,2019,46299,700,Al día,0,0
+P00000839,2021-07-13,2022-07-13,Responsabilidad civil,Ford Focus,2000,21563,600,Vencido,1,0
+P00000840,2020-10-12,2021-10-12,Cobertura amplia,Ford Focus,2015,30436,500,Al día,0,1
+P00000841,2023-02-05,2024-02-05,Cobertura total,Hyundai Elantra,1991,41865,600,Vencido,1,1
+P00000842,2024-08-26,2025-08-26,Responsabilidad civil,Hyundai Elantra,2011,41144,600,Vencido,0,0
+P00000843,2023-10-24,2024-10-23,Cobertura de colisión,Toyota Corolla,1996,28458,700,Al día,1,1
+P00000844,2025-09-10,2026-09-10,Responsabilidad civil,Honda Civic,2003,27851,700,Vencido,1,1
+P00000845,2022-12-30,2023-12-30,Cobertura total,Honda Civic,2005,40147,600,Vencido,0,0
+P00000846,2020-01-11,2021-01-10,Cobertura de robo,Honda Civic,2017,37367,500,Al día,1,0
+P00000847,2023-03-04,2024-03-03,Cobertura amplia,Toyota Corolla,1999,25581,500,Al día,0,0
+P00000848,2023-05-07,2024-05-06,Cobertura total,Chevrolet Cruze,2001,42147,700,Vencido,1,0
+P00000849,2025-06-28,2026-06-28,Cobertura total,Mazda 3,2013,49583,700,Al día,1,1
+P00000850,2021-08-31,2022-08-31,Cobertura de robo,Ford Focus,2011,33936,700,Vencido,1,1
+P00000851,2025-01-03,2026-01-03,Cobertura amplia,Toyota Corolla,2014,13156,500,Vencido,1,1
+P00000852,2025-06-06,2026-06-06,Cobertura total,Toyota Corolla,2014,16118,600,Al día,0,0
+P00000853,2023-11-14,2024-11-13,Cobertura de colisión,Volkswagen Jetta,1997,45574,500,Al día,1,1
+P00000854,2023-09-23,2024-09-22,Responsabilidad civil,Kia Forte,2008,28433,500,Al día,1,0
+P00000855,2024-03-25,2025-03-25,Cobertura total,Subaru Impreza,2006,34328,600,Al día,1,1
+P00000856,2025-02-08,2026-02-08,Cobertura amplia,Kia Forte,1990,10357,500,Vencido,1,1
+P00000857,2023-08-11,2024-08-10,Cobertura total,Toyota Corolla,1998,45390,700,Al día,1,0
+P00000858,2022-02-11,2023-02-11,Cobertura amplia,Honda Civic,2009,21132,600,Al día,0,0
+P00000859,2022-09-05,2023-09-05,Cobertura de colisión,Honda Civic,1990,28971,600,Al día,0,0
+P00000860,2024-04-17,2025-04-17,Cobertura de colisión,Nissan Sentra,2013,14708,600,Vencido,1,0
+P00000861,2022-08-14,2023-08-14,Cobertura de colisión,Hyundai Elantra,2015,17749,500,Vencido,1,0
+P00000862,2024-08-09,2025-08-09,Cobertura de robo,Toyota Corolla,2002,16313,700,Al día,1,0
+P00000863,2020-06-27,2021-06-27,Responsabilidad civil,Volkswagen Jetta,2007,42593,500,Al día,1,0
+P00000864,2023-07-27,2024-07-26,Cobertura amplia,Toyota Corolla,2016,35826,700,Vencido,0,1
+P00000865,2025-04-21,2026-04-21,Cobertura amplia,Volkswagen Jetta,1994,26402,500,Al día,1,0
+P00000866,2024-04-10,2025-04-10,Cobertura amplia,Kia Forte,1996,13693,700,Vencido,1,0
+P00000867,2024-04-30,2025-04-30,Cobertura de colisión,Nissan Sentra,1998,37642,500,Al día,0,0
+P00000868,2021-09-15,2022-09-15,Cobertura total,Mazda 3,2020,26265,700,Vencido,1,1
+P00000869,2025-07-21,2026-07-21,Cobertura de robo,Toyota Corolla,2000,40771,700,Al día,0,0
+P00000870,2020-05-31,2021-05-31,Cobertura amplia,Toyota Corolla,2002,23420,500,Al día,0,0
+P00000871,2021-06-01,2022-06-01,Cobertura total,Hyundai Elantra,2005,11593,600,Vencido,1,1
+P00000872,2025-08-19,2026-08-19,Cobertura total,Toyota Corolla,2004,28196,700,Al día,1,0
+P00000873,2023-09-21,2024-09-20,Responsabilidad civil,Honda Civic,2021,45414,500,Al día,1,0
+P00000874,2021-02-15,2022-02-15,Cobertura total,Chevrolet Cruze,2014,44241,700,Vencido,0,1
+P00000875,2024-12-08,2025-12-08,Cobertura amplia,Toyota Corolla,2015,34900,700,Vencido,0,0
+P00000876,2021-02-12,2022-02-12,Responsabilidad civil,Ford Focus,2021,25523,600,Al día,0,1
+P00000877,2025-11-24,2026-11-24,Cobertura de colisión,Toyota Corolla,1997,31722,700,Al día,0,0
+P00000878,2025-02-14,2026-02-14,Cobertura de robo,Mazda 3,2011,16318,700,Vencido,0,1
+P00000879,2020-03-03,2021-03-03,Cobertura total,Volkswagen Jetta,2020,25315,600,Vencido,0,0
+P00000880,2021-08-13,2022-08-13,Responsabilidad civil,Mazda 3,1994,41156,600,Vencido,0,0
+P00000881,2024-08-06,2025-08-06,Cobertura de robo,Chevrolet Cruze,2014,12894,700,Vencido,1,1
+P00000882,2021-09-24,2022-09-24,Responsabilidad civil,Toyota Corolla,1998,42042,700,Al día,0,1
+P00000883,2020-11-02,2021-11-02,Cobertura de colisión,Toyota Corolla,2020,36653,600,Al día,0,0
+P00000884,2025-04-07,2026-04-07,Cobertura amplia,Chevrolet Cruze,2011,24866,700,Al día,1,1
+P00000885,2022-12-21,2023-12-21,Cobertura amplia,Nissan Sentra,1993,45084,700,Al día,0,0
+P00000886,2023-10-18,2024-10-17,Responsabilidad civil,Honda Civic,1999,16856,600,Vencido,1,1
+P00000887,2024-06-16,2025-06-16,Cobertura amplia,Chevrolet Cruze,2014,45398,700,Al día,1,0
+P00000888,2020-11-24,2021-11-24,Cobertura de robo,Ford Focus,2018,20069,500,Al día,0,0
+P00000889,2023-09-07,2024-09-06,Cobertura de colisión,Ford Focus,1995,39538,700,Al día,0,0
+P00000890,2025-12-25,2026-12-25,Responsabilidad civil,Toyota Corolla,2022,16414,700,Al día,1,1
+P00000891,2024-04-05,2025-04-05,Cobertura total,Kia Forte,2016,31043,600,Al día,0,0
+P00000892,2023-07-21,2024-07-20,Cobertura de robo,Toyota Corolla,2012,12114,500,Vencido,0,1
+P00000893,2025-06-21,2026-06-21,Responsabilidad civil,Ford Focus,2013,17492,600,Al día,0,0
+P00000894,2020-05-27,2021-05-27,Cobertura de colisión,Chevrolet Cruze,2022,19279,600,Al día,0,1
+P00000895,2020-10-07,2021-10-07,Responsabilidad civil,Kia Forte,2009,32524,500,Al día,0,0
+P00000896,2022-08-19,2023-08-19,Cobertura de robo,Toyota Corolla,2021,20335,600,Al día,0,1
+P00000897,2023-03-23,2024-03-22,Responsabilidad civil,Kia Forte,2007,48508,700,Al día,0,1
+P00000898,2022-07-20,2023-07-20,Cobertura de robo,Chevrolet Cruze,1993,30061,700,Al día,1,0
+P00000899,2021-01-05,2022-01-05,Cobertura amplia,Honda Civic,1990,17920,500,Al día,1,1
+P00000900,2024-11-12,2025-11-12,Cobertura total,Toyota Corolla,2006,20291,600,Al día,0,1
+P00000901,2021-02-07,2022-02-07,Responsabilidad civil,Hyundai Elantra,2006,22266,500,Vencido,0,1
+P00000902,2021-02-15,2022-02-15,Cobertura de colisión,Nissan Sentra,1993,43594,600,Vencido,1,1
+P00000903,2024-12-22,2025-12-22,Cobertura de robo,Subaru Impreza,2012,47765,500,Vencido,0,1
+P00000904,2021-11-12,2022-11-12,Cobertura de robo,Volkswagen Jetta,2021,12966,700,Al día,0,0
+P00000905,2023-05-11,2024-05-10,Cobertura de colisión,Chevrolet Cruze,2017,34636,600,Al día,1,1
+P00000906,2020-04-28,2021-04-28,Cobertura amplia,Toyota Corolla,1996,24610,500,Al día,1,1
+P00000907,2020-07-07,2021-07-07,Cobertura amplia,Mazda 3,2014,39505,500,Al día,1,0
+P00000908,2023-08-21,2024-08-20,Cobertura de colisión,Volkswagen Jetta,2014,21203,700,Al día,0,0
+P00000909,2020-08-17,2021-08-17,Cobertura de colisión,Ford Focus,2000,48082,500,Vencido,1,1
+P00000910,2023-04-16,2024-04-15,Responsabilidad civil,Nissan Sentra,2017,27519,700,Vencido,1,0
+P00000911,2024-01-08,2025-01-07,Cobertura total,Subaru Impreza,2005,11557,500,Vencido,0,0
+P00000912,2024-03-15,2025-03-15,Cobertura amplia,Chevrolet Cruze,2006,29791,600,Al día,0,0
+P00000913,2024-10-30,2025-10-30,Cobertura total,Chevrolet Cruze,2008,14438,600,Al día,0,0
+P00000914,2021-08-19,2022-08-19,Responsabilidad civil,Ford Focus,2008,33757,500,Al día,0,0
+P00000915,2022-09-27,2023-09-27,Cobertura amplia,Ford Focus,2004,30885,700,Vencido,0,0
+P00000916,2025-12-15,2026-12-15,Responsabilidad civil,Nissan Sentra,1990,22424,500,Vencido,1,0
+P00000917,2024-08-14,2025-08-14,Cobertura total,Honda Civic,2006,21765,500,Vencido,0,0
+P00000918,2022-01-07,2023-01-07,Responsabilidad civil,Chevrolet Cruze,1992,39563,700,Vencido,0,1
+P00000919,2021-11-27,2022-11-27,Cobertura de colisión,Mazda 3,2003,45699,700,Al día,1,0
+P00000920,2021-12-18,2022-12-18,Cobertura total,Chevrolet Cruze,2019,28052,500,Vencido,1,0
+P00000921,2020-11-19,2021-11-19,Cobertura amplia,Ford Focus,2017,15659,700,Vencido,1,0
+P00000922,2024-04-15,2025-04-15,Cobertura total,Hyundai Elantra,2001,40868,700,Vencido,0,1
+P00000923,2022-09-13,2023-09-13,Cobertura total,Toyota Corolla,1991,48518,600,Vencido,1,0
+P00000924,2025-07-31,2026-07-31,Cobertura de robo,Hyundai Elantra,2020,23657,500,Al día,1,1
+P00000925,2021-08-09,2022-08-09,Responsabilidad civil,Chevrolet Cruze,2007,22676,700,Al día,0,0
+P00000926,2022-08-09,2023-08-09,Cobertura de colisión,Chevrolet Cruze,2022,31722,500,Al día,1,1
+P00000927,2025-03-03,2026-03-03,Responsabilidad civil,Hyundai Elantra,2015,23352,700,Vencido,0,1
+P00000928,2022-11-06,2023-11-06,Cobertura total,Kia Forte,2011,41078,700,Vencido,1,0
+P00000929,2025-02-25,2026-02-25,Cobertura total,Chevrolet Cruze,1995,23813,700,Vencido,1,0
+P00000930,2022-11-11,2023-11-11,Cobertura total,Kia Forte,2006,45926,600,Vencido,0,0
+P00000931,2020-02-08,2021-02-07,Cobertura de robo,Hyundai Elantra,1998,13066,500,Al día,1,0
+P00000932,2025-03-20,2026-03-20,Cobertura total,Ford Focus,2022,42790,700,Al día,0,0
+P00000933,2023-03-24,2024-03-23,Cobertura de colisión,Honda Civic,1993,49768,600,Vencido,1,0
+P00000934,2021-10-09,2022-10-09,Cobertura de colisión,Nissan Sentra,2018,22222,500,Al día,0,0
+P00000935,2020-10-29,2021-10-29,Cobertura de colisión,Honda Civic,1991,24039,700,Vencido,1,1
+P00000936,2024-12-14,2025-12-14,Responsabilidad civil,Toyota Corolla,2005,43896,500,Vencido,1,1
+P00000937,2023-11-16,2024-11-15,Cobertura amplia,Toyota Corolla,2006,31972,500,Vencido,1,0
+P00000938,2023-05-10,2024-05-09,Cobertura total,Volkswagen Jetta,1992,31619,700,Vencido,1,0
+P00000939,2024-10-03,2025-10-03,Cobertura de robo,Chevrolet Cruze,2001,37730,600,Vencido,1,0
+P00000940,2022-10-21,2023-10-21,Cobertura total,Toyota Corolla,2004,36538,700,Vencido,1,0
+P00000941,2025-02-14,2026-02-14,Cobertura de colisión,Ford Focus,2022,33792,700,Vencido,1,0
+P00000942,2023-05-22,2024-05-21,Cobertura de robo,Chevrolet Cruze,2000,32720,600,Al día,0,1
+P00000943,2022-03-26,2023-03-26,Cobertura de robo,Subaru Impreza,2014,14899,500,Vencido,0,0
+P00000944,2024-04-24,2025-04-24,Cobertura de robo,Hyundai Elantra,1997,41770,700,Vencido,0,1
+P00000945,2025-06-02,2026-06-02,Responsabilidad civil,Hyundai Elantra,2001,40104,700,Vencido,0,0
+P00000946,2021-03-12,2022-03-12,Responsabilidad civil,Toyota Corolla,2007,18774,700,Al día,0,0
+P00000947,2022-08-29,2023-08-29,Cobertura de colisión,Hyundai Elantra,1993,26925,600,Vencido,1,0
+P00000948,2024-04-11,2025-04-11,Responsabilidad civil,Ford Focus,2011,32781,500,Vencido,1,0
+P00000949,2024-01-10,2025-01-09,Responsabilidad civil,Ford Focus,2006,37472,600,Vencido,0,0
+P00000950,2023-04-26,2024-04-25,Cobertura de colisión,Ford Focus,1992,46861,600,Al día,1,1
+P00000951,2023-04-24,2024-04-23,Cobertura de colisión,Chevrolet Cruze,2012,16886,600,Vencido,1,1
+P00000952,2020-03-30,2021-03-30,Cobertura amplia,Kia Forte,1993,36301,700,Al día,1,1
+P00000953,2024-06-09,2025-06-09,Cobertura total,Nissan Sentra,2008,44747,700,Al día,1,0
+P00000954,2023-01-29,2024-01-29,Cobertura total,Hyundai Elantra,2013,36566,700,Al día,0,0
+P00000955,2020-02-03,2021-02-02,Responsabilidad civil,Chevrolet Cruze,2009,40887,700,Al día,0,1
+P00000956,2020-07-19,2021-07-19,Cobertura total,Toyota Corolla,2002,30460,700,Al día,1,0
+P00000957,2025-07-27,2026-07-27,Cobertura de robo,Toyota Corolla,2012,48725,500,Vencido,1,1
+P00000958,2023-03-18,2024-03-17,Cobertura de robo,Ford Focus,2007,26333,500,Al día,1,0
+P00000959,2022-07-31,2023-07-31,Cobertura amplia,Hyundai Elantra,2003,15931,600,Al día,1,0
+P00000960,2023-12-14,2024-12-13,Cobertura de colisión,Ford Focus,1990,21264,700,Al día,0,0
+P00000961,2022-06-16,2023-06-16,Responsabilidad civil,Toyota Corolla,1998,13306,600,Vencido,1,0
+P00000962,2022-02-17,2023-02-17,Cobertura de colisión,Toyota Corolla,2015,45269,700,Al día,1,1
+P00000963,2022-10-23,2023-10-23,Cobertura total,Volkswagen Jetta,1994,32328,600,Vencido,0,0
+P00000964,2021-07-14,2022-07-14,Responsabilidad civil,Honda Civic,1995,15381,600,Al día,0,1
+P00000965,2021-02-01,2022-02-01,Cobertura de robo,Toyota Corolla,2017,26614,500,Al día,0,1
+P00000966,2020-06-10,2021-06-10,Cobertura de robo,Toyota Corolla,2016,31263,500,Vencido,1,1
+P00000967,2023-06-19,2024-06-18,Cobertura de colisión,Toyota Corolla,1999,22380,700,Vencido,0,0
+P00000968,2024-12-10,2025-12-10,Cobertura amplia,Toyota Corolla,2020,22093,500,Al día,1,0
+P00000969,2020-05-16,2021-05-16,Responsabilidad civil,Ford Focus,2013,20024,600,Al día,1,0
+P00000970,2024-02-03,2025-02-02,Cobertura de colisión,Nissan Sentra,2003,37442,500,Vencido,1,0
+P00000971,2021-06-22,2022-06-22,Cobertura amplia,Nissan Sentra,2001,31611,500,Al día,0,0
+P00000972,2021-01-04,2022-01-04,Cobertura de colisión,Toyota Corolla,2009,18093,600,Al día,1,1
+P00000973,2023-04-23,2024-04-22,Cobertura de robo,Toyota Corolla,1998,29428,600,Vencido,0,0
+P00000974,2023-08-31,2024-08-30,Cobertura total,Toyota Corolla,1996,33090,500,Al día,0,0
+P00000975,2024-08-28,2025-08-28,Cobertura total,Volkswagen Jetta,2008,13783,700,Vencido,1,1
+P00000976,2021-12-20,2022-12-20,Responsabilidad civil,Chevrolet Cruze,1996,10601,600,Al día,1,1
+P00000977,2022-04-02,2023-04-02,Cobertura de robo,Hyundai Elantra,2001,24470,500,Al día,1,0
+P00000978,2021-06-25,2022-06-25,Responsabilidad civil,Ford Focus,1997,14791,600,Vencido,0,0
+P00000979,2024-02-07,2025-02-06,Cobertura de colisión,Chevrolet Cruze,1999,27182,600,Vencido,1,0
+P00000980,2025-12-14,2026-12-14,Cobertura de colisión,Honda Civic,2012,28769,500,Al día,1,1
+P00000981,2025-08-17,2026-08-17,Cobertura amplia,Toyota Corolla,1991,22998,500,Al día,0,0
+P00000982,2023-01-21,2024-01-21,Cobertura de robo,Hyundai Elantra,2007,20828,500,Vencido,1,0
+P00000983,2021-11-04,2022-11-04,Cobertura de colisión,Mazda 3,2001,18915,500,Vencido,0,1
+P00000984,2022-11-18,2023-11-18,Responsabilidad civil,Hyundai Elantra,1990,39263,500,Al día,1,1
+P00000985,2025-05-27,2026-05-27,Cobertura total,Chevrolet Cruze,1994,41494,700,Vencido,0,0
+P00000986,2023-04-23,2024-04-22,Cobertura de colisión,Hyundai Elantra,2014,12796,500,Vencido,1,0
+P00000987,2023-10-19,2024-10-18,Cobertura total,Subaru Impreza,2016,19161,500,Al día,0,0
+P00000988,2021-04-16,2022-04-16,Cobertura de robo,Hyundai Elantra,2012,41847,700,Al día,0,1
+P00000989,2025-04-02,2026-04-02,Cobertura de colisión,Volkswagen Jetta,2015,48639,700,Vencido,0,1
+P00000990,2020-11-04,2021-11-04,Responsabilidad civil,Volkswagen Jetta,2017,19539,600,Al día,1,1
+P00000991,2021-07-30,2022-07-30,Cobertura de colisión,Ford Focus,2015,38608,600,Vencido,0,1
+P00000992,2022-07-13,2023-07-13,Cobertura total,Toyota Corolla,2012,48203,700,Vencido,1,0
+P00000993,2024-06-15,2025-06-15,Cobertura de robo,Volkswagen Jetta,2005,23168,600,Vencido,1,1
+P00000994,2024-02-07,2025-02-06,Cobertura amplia,Chevrolet Cruze,2015,43285,500,Vencido,1,0
+P00000995,2021-01-04,2022-01-04,Cobertura de colisión,Volkswagen Jetta,2019,36360,500,Al día,1,0
+P00000996,2024-06-04,2025-06-04,Cobertura de robo,Volkswagen Jetta,2006,14067,600,Al día,1,0
+P00000997,2020-02-27,2021-02-26,Cobertura total,Ford Focus,2008,35388,500,Al día,0,1
+P00000998,2022-12-19,2023-12-19,Cobertura total,Nissan Sentra,2022,32100,500,Vencido,0,0
+P00000999,2021-05-21,2022-05-21,Cobertura total,Honda Civic,2021,34111,500,Al día,1,1
