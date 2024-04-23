@@ -51,7 +51,7 @@ class Generador_Datos():
         data['Fecha de vencimiento'] = [(start_date + datetime.timedelta(days=365)) for start_date in data['Fecha de inicio']]
         data['Tipo de cobertura'] = np.random.choice(self.coverage_types, self.n_cases)
         data['Modelo del coche'] = np.random.choice(self.car_models, self.n_cases, p=self.car_probabilities)
-        data['Año del coche'] = np.random.randint(1990, 2023, size=self.n_cases)
+        data['Año del coche'] = np.random.randint(2010, 2023, size=self.n_cases)
         data['Valor asegurado'] = [np.random.randint(10000,50000) for _ in range (self.n_cases)]
         data['Deducible'] = np.random.choice([500,600,700], self.n_cases)
         data['Estado del seguro'] = np.random.choice(["Al día", "Vencido"], self.n_cases)
@@ -71,6 +71,7 @@ class Generador_Datos():
         """Guarda los datos en un csv dentro de la carpeta common
         """
         utils.write_insurance_data(self.df)
+        utils.write_valor_asegurado_promedio()
         
 
 data_generator = Generador_Datos()

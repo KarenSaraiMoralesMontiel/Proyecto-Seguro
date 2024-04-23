@@ -11,6 +11,7 @@ import os
 import joblib
 import importlib.util
 from . import constants
+import json
 
 
 def read_insurance_data():
@@ -52,3 +53,22 @@ def write_model_data(encoded_columns, accuracy):
         file.write(f'"accuracy" : {accuracy}\n')
         file.write("}")
     
+def read_valor_asegurado_promedio():
+    file_path = os.path.join(os.path.dirname(__file__), '..', constants.VALOR_ASEGURADO_JSON_PATH)
+    with open(file_path) as f:
+        raw_data = json.load(f)
+    return raw_data
+
+def write_valor_asegurado_promedio():
+    insurance_data_df = read_insurance_data()
+    valor_asegurado_promedio = insurance_data_df.groupby(['Modelo del coche', "Año del coche"])['Valor asegurado'].mean().reset_index().sort_values("Año del coche")
+    columns = ["Car Model", "Year" , "Insurance Value"]
+    data = [columns]
+
+# Iterate through each row of the DataFrame and append it to the data list
+    for index, row in valor_asegurado_promedio.iterrows():
+        data.append(row.tolist())
+
+# Write the JSON data to a file
+    with open('data_with_columns.json', 'w') as json_file:
+        json.dump(data, json_file)

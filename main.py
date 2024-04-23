@@ -8,6 +8,13 @@ import common.utils as utils
 import streamlit as st
 import pandas as pd
 from pprint import pprint
+from streamlit_echarts import st_pyecharts,st_echarts
+from streamlit_echarts import JsCode
+import matplotlib.pylab as plt
+from pyecharts import options as opts
+from pyecharts.charts import Bar
+import json
+import seaborn as sns
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
@@ -44,10 +51,14 @@ class StreamlitApp():
                 prediction = self.modelo.predict(input_encoded)
                 # Assuming self.message(prediction[0]) returns a string
                 prediction_message = self.message(prediction[0])
-
+                
                 # Write the message with Markdown formatting for centering and increasing font size
                 st.write(f"<div style='text-align: center; font-size: 24px;'>{prediction_message}</div>", unsafe_allow_html=True)
-    
+        coches_siniestros_bar = self.siniestros_modelo_carro()
+        self.line_race_valor_asegurado()
+        st_pyecharts(coches_siniestros_bar, key="Coches Siniestros")
+        option = self.line_race_valor_asegurado()
+        st_echarts(options=option, height="600px")
     def transform_data(self, input_data):
         try:
             data = pd.DataFrame(input_data)
@@ -75,8 +86,109 @@ class StreamlitApp():
         if (prediction):
             return "Si, van a haber gastos médicos"
         return "No, no van a haber gastos médictos"
-            
+    
+    def siniestros_modelo_carro(self) -> Bar:
+        def apply_siniestros(gastos_medico, daños_terceros):
+            if (gastos_medico == 1 or daños_terceros == 1):
+                return "yes"
+            return "no"
+
+        coches_siniestros = self.insurance_data_df
+
+        coches_siniestros["Siniestros"] = coches_siniestros[["Gastos médicos", "Daños a terceros"]].apply(lambda row: apply_siniestros(row["Gastos médicos"], row["Daños a terceros"]), axis=1)
         
+
+        coches_siniestros = pd.crosstab(index=coches_siniestros['Siniestros'],
+                                    columns=coches_siniestros['Modelo del coche'])
+        coches_siniestros = coches_siniestros.T.sort_values('yes', ascending=False)
+        x_axis  = list(coches_siniestros.index)
+        y_axis = list(coches_siniestros.yes)
+        
+        b = (
+            Bar()
+            .add_xaxis(x_axis)
+            .add_yaxis("Siniestros",y_axis)
+            .set_global_opts(
+                title_opts=opts.TitleOpts(
+                title="Siniestros por coche", subtitle="Count of Games"
+        ),
+        toolbox_opts=opts.ToolboxOpts(),
+            )
+        )
+        return b
+        
+    def line_race_valor_asegurado(self):
+        cars = ['Toyota Corolla', 
+                'Honda Civic', 
+                'Ford Focus', 
+                'Chevrolet Cruze', 
+                'Nissan Sentra',
+               'Hyundai Elantra', 
+               'Volkswagen Jetta', 
+               'Kia Forte', 
+               'Mazda 3', 
+               'Subaru Impreza']
+        
+        
+        raw_data = utils.read_valor_asegurado_promedio()
+        
+        datasetWithFilters = [
+        {
+        "id": f"dataset_{car}",
+        "fromDatasetId": "dataset_raw",
+        "transform": {
+            "type": "filter",
+            "config": {
+                "and": [
+                    {"dimension": "Year", "gte": 2010},
+                    {"dimension": "Car Model", "=": car},
+                    ]
+                },
+            },
+        }
+        for car in cars
+        ]
+
+        seriesList = [
+        {
+        "type": "line",
+        "datasetId": f"dataset_{car}",
+        "showSymbol": False,
+        "name": car,
+        "endLabel": {
+            "show": True,
+            "formatter": JsCode(
+                "function (params) { return params.value[0] + ': ' + params.value[2];}"
+            ).js_code,
+            },
+        "labelLayout": {"moveOverlap": "shiftY"},
+        "emphasis": {"focus": "series"},
+        "encode": {
+            "x": "Year",
+            "y": "Insurance Value",
+            "label": ["Model Car", "Insurance Value"],
+            "itemName": "Year",
+            "tooltip": ["Insurance Value"],
+            },
+        }
+        for car in cars
+        ]
+
+        option = {
+        "animationDuration": 10000,
+        "dataset": [{"id": "dataset_raw", "source": raw_data}] + datasetWithFilters,
+        "title": {"text": "Valor Asegurado"},
+        "tooltip": {"order": "valueDesc", "trigger": "axis"},
+        "xAxis": {"type": "category", "nameLocation": "middle"},
+        "yAxis": {"name": "Insurance Value"},
+        "grid": {"right": 140},
+        "series": seriesList,
+    }
+        return option
+
+        
+    
+
 sales_df = utils.read_insurance_data()
     
 app = StreamlitApp(sales_df)
