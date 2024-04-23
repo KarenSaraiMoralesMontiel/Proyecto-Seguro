@@ -51,9 +51,13 @@ class StreamlitApp():
                 
                 # Write the message with Markdown formatting for centering and increasing font size
                 st.write(f"<div style='text-align: center; font-size: 24px;'>{prediction_message}</div>", unsafe_allow_html=True)
+                
         coches_siniestros_bar = self.siniestros_modelo_carro()
-        self.line_race_valor_asegurado()
         st_pyecharts(coches_siniestros_bar, key="Coches Siniestros")
+        
+        mes_siniestros_bar = self.siniestros_por_mes()
+        st_pyecharts(mes_siniestros_bar, key="Mes Siniestros")
+
         option = self.line_race_valor_asegurado()
         st_echarts(options=option, height="600px")
     def transform_data(self, input_data):
@@ -85,14 +89,11 @@ class StreamlitApp():
         return "No, no van a haber gastos médictos"
     
     def siniestros_modelo_carro(self) -> Bar:
-        def apply_siniestros(gastos_medico, daños_terceros):
-            if (gastos_medico == 1 or daños_terceros == 1):
-                return "yes"
-            return "no"
+
 
         coches_siniestros = self.insurance_data_df
 
-        coches_siniestros["Siniestros"] = coches_siniestros[["Gastos médicos", "Daños a terceros"]].apply(lambda row: apply_siniestros(row["Gastos médicos"], row["Daños a terceros"]), axis=1)
+        coches_siniestros["Siniestros"] = coches_siniestros[["Gastos médicos", "Daños a terceros"]].apply(lambda row: utils.apply_siniestros(row["Gastos médicos"], row["Daños a terceros"]), axis=1)
         
 
         coches_siniestros = pd.crosstab(index=coches_siniestros['Siniestros'],
@@ -107,7 +108,36 @@ class StreamlitApp():
             .add_yaxis("Siniestros",y_axis)
             .set_global_opts(
                 title_opts=opts.TitleOpts(
-                title="Siniestros por coche", subtitle="Count of Games"
+                title="Siniestros por coche", subtitle="Count of Siniestros"
+        ),
+        toolbox_opts=opts.ToolboxOpts(),
+            )
+        )
+        return b
+    
+    def siniestros_por_mes(self) -> Bar:
+        mes_siniestros = self.insurance_data_df.copy()
+
+        # Create a new column "Siniestros" by applying a custom function to "Gastos médicos" and "Daños a terceros" columns
+        mes_siniestros["Siniestros"] = mes_siniestros[["Gastos médicos", "Daños a terceros"]].apply(lambda row: utils.apply_siniestros(row["Gastos médicos"], row["Daños a terceros"]), axis=1)
+
+        # Extract month information from "Fecha de inicio" column and create a new column "Mes Siniestros"
+        mes_siniestros["Mes Siniestros"] = pd.to_datetime(mes_siniestros["Fecha de inicio"]).dt.month
+
+        # Compute a cross-tabulation of "Mes Siniestros" and "Siniestros" to count occurrences of different types of claims for each month
+        mes_siniestros = pd.crosstab(index=mes_siniestros['Mes Siniestros'], columns=mes_siniestros['Siniestros']).sort_index()
+
+        # Map month names using the `utils.change_month` function (assuming it's defined correctly)
+        mes_siniestros.index = mes_siniestros.index.map(utils.change_month)
+        x_axis = list(mes_siniestros.index)
+        y_axis = list(mes_siniestros.yes)
+        b = (
+            Bar()
+            .add_xaxis(x_axis)
+            .add_yaxis("Siniestros",y_axis, color="#9facd8")
+            .set_global_opts(
+                title_opts=opts.TitleOpts(
+                title="Siniestros por mes", subtitle="Count of Siniestros"
         ),
         toolbox_opts=opts.ToolboxOpts(),
             )

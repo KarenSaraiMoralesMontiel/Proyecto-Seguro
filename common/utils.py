@@ -72,3 +72,29 @@ def write_valor_asegurado_promedio():
 # Write the JSON data to a file
     with open('data_with_columns.json', 'w') as json_file:
         json.dump(data, json_file)
+
+def apply_siniestros(gastos_medico, daños_terceros):
+    if (gastos_medico == 1 or daños_terceros == 1):
+        return "yes"
+    return "no"
+
+def apply_month(fecha):
+    month = str(fecha).split("-")[1]
+    return month
+
+def change_month(month):
+  months = {
+      1: "Enero",
+      2: "Febrero",
+      3: "Marzo",
+      4: "Abril",
+      5: "Mayo",
+      6: "Junio",
+      7: "Julio",
+      8: "Agosto",
+      9: "Septiembre",
+      10: "Octubre",
+      11: "Noviembre",
+      12:"Diciembre"
+  }
+  return months[int(month)]
