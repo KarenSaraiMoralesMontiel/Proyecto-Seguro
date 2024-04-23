@@ -7,14 +7,11 @@ Fecha de creación: 20/04/2024
 import common.utils as utils
 import streamlit as st
 import pandas as pd
-from pprint import pprint
 from streamlit_echarts import st_pyecharts,st_echarts
 from streamlit_echarts import JsCode
 import matplotlib.pylab as plt
 from pyecharts import options as opts
 from pyecharts.charts import Bar
-import json
-import seaborn as sns
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
