@@ -4,7 +4,6 @@ Este archivo contiene la clase de Análisis de Datos.
 Autor: Karen Sarai Morales Montiel
 Fecha de creación: 20/04/2024
 """
-import common.model.model_data as model_data
 import common.utils as utils
 import streamlit as st
 import pandas as pd
