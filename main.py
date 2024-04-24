@@ -12,7 +12,7 @@ from streamlit_echarts import JsCode
 import matplotlib.pylab as plt
 from pyecharts import options as opts
 from pyecharts.charts import Bar  
-from matplotlib_venn import venn2        
+from matplotlib_venn import venn3      
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
@@ -226,11 +226,18 @@ class StreamlitApp():
         
         # Create figure and axis
         fig, ax = plt.subplots()
-        ax.set_title('Distribución de Siniestros')
+        
         
         # Create Venn diagram
-        venn2([set(data["Gastos medicos"]), set(data["Terceros"])], ("Gastos médicos", "Daños a terceros"))
+        venn3([set(data["Sin Siniestros"]), set(data["Gastos medicos"]), set(data["Terceros"])], ('', '', ''))
         
+        ax.legend(handles=[plt.Rectangle((0,0),1,1,color='#99CC99', alpha=0.5),
+                           plt.Rectangle((0,0),1,1,color='#9999FF', alpha=0.5),
+                           plt.Rectangle((0,0),1,1,color='#FF9999', alpha=0.5)],
+                  labels=['Gastos médicos', 'Daños a terceros', 'Sin Siniestros'],
+                  loc='upper left',
+                  bbox_to_anchor=(1, 1))
+        plt.title("Análisis de Siniestros")
         return fig
         
     

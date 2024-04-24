@@ -110,11 +110,12 @@ def read_siniestros_json():
 def write_siniestros_json():
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.SINIESTROS_VENN_DATA_JSON_PATH)
     insurance_data_df = read_insurance_data()
-    
+    poliza_sin_siniestros = insurance_data_df.loc[(insurance_data_df['Gastos médicos'] == 0) & (insurance_data_df['Daños a terceros'] == 0), 'Número de póliza']
     polizas_medicos = insurance_data_df.loc[insurance_data_df['Gastos médicos'] == 1, 'Número de póliza']
     polizas_terceros = insurance_data_df.loc[insurance_data_df['Daños a terceros'] == 1, 'Número de póliza']
     
     data = {
+        "Sin Siniestros" : list(poliza_sin_siniestros),
         "Gastos medicos": list(polizas_medicos),
         "Terceros" : list(polizas_terceros)
     }
