@@ -65,7 +65,7 @@ def write_valor_asegurado_promedio():
     valor_asegurado_promedio = insurance_data_df.groupby(['Modelo del coche', "Año del coche"])['Valor asegurado'].mean().reset_index().sort_values("Año del coche")
     columns = ["Car Model", "Year" , "Insurance Value"]
     data = [columns]
-    min_value = 80000
+    min_value = 100000
 
 # Iterate through each row of the DataFrame and append it to the data list
     for index, row in valor_asegurado_promedio.iterrows():
@@ -128,7 +128,52 @@ def write_siniestros_json():
     with open(file_path, 'w') as json_file:
         json.dump(data, json_file)
 
-write_siniestros_json()
+def write_cobertura_seguros_json():
+    file_path = os.path.join(os.path.dirname(__file__), '..', constants.HEATMAP_COBERTURAS_SEGUROS_JSON)
+    insurance_data_df = read_insurance_data()
+    df_2dhist = pd.DataFrame({
+    x_label: grp['Estado del seguro'].value_counts()
+    for x_label, grp in insurance_data_df.groupby('Tipo de cobertura')
+})
+    estados = list(df_2dhist.index)
+    coberturas = list(df_2dhist.columns)
+    insurance_data_df = read_insurance_data()
+    df_2dhist = pd.DataFrame({
+            x_label: grp['Estado del seguro'].value_counts()
+            for x_label, grp in insurance_data_df.groupby('Tipo de cobertura')
+        })
+    min_count = 10000
+    max_count = 0
+    data = []
+    x = 0
+    for _, row in reversed(list(df_2dhist.iterrows())):
+        y = 0
+    # Iterate through the columns
+        for _, value in row.items():
+            data.append([y, x, value])
+            if (min_count > value):
+                min_count = value
+            if (max_count < value):
+                max_count = value
+            y += 1
+        x += 1
+    
+    max_count = (max_count // 100) *100 + 100
+    min_count = (min_count // 100) *100
+        
+    json_data = {
+        "max_count" : max_count,
+        "min_count" : min_count,
+        "estados" : estados,
+        "coberturas" : coberturas,
+        "data": data
+    }
+    with open(file_path, 'w', encoding="utf-8") as json_file:
+        json.dump(json_data, json_file, ensure_ascii=False)
     
 
-    
+def read_heatmap_coberturas_json():
+    file_path = os.path.join(os.path.dirname(__file__), '..', constants.HEATMAP_COBERTURAS_SEGUROS_JSON)
+    with open(file_path, "r") as file:
+        heatmap_coberturas = json.load(file)
+    return heatmap_coberturas

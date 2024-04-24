@@ -12,7 +12,8 @@ from streamlit_echarts import JsCode
 import matplotlib.pylab as plt
 from pyecharts import options as opts
 from pyecharts.charts import Bar  
-from matplotlib_venn import venn3      
+from matplotlib_venn import venn3
+from pprint import pprint    
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
@@ -59,12 +60,14 @@ class StreamlitApp():
         mes_siniestros_bar = self.siniestros_por_mes()
         st_pyecharts(mes_siniestros_bar, key="Mes Siniestros")
 
-        option = self.line_race_valor_asegurado()
-        st_echarts(options=option, height="600px")
+        valor_option = self.line_race_valor_asegurado()
+        st_echarts(options=valor_option, height="600px")
         
         #json_data = utils.read_siniestros_json()
         venn_diagram = self.plot_venn_diagram()
         st.pyplot(venn_diagram)
+        heatmap_options = self.plot_heatmap_cobertura_seguro()
+        st_echarts(options=heatmap_options, height="600px")
         
         
     def transform_data(self, input_data):
@@ -225,20 +228,59 @@ class StreamlitApp():
         data = utils.read_siniestros_json()
         
         # Create figure and axis
-        fig, ax = plt.subplots()
-        
+        fig, ax = plt.subplots(figsize=(8, 8))  # Increase figure size
         
         # Create Venn diagram
-        venn3([set(data["Sin Siniestros"]), set(data["Gastos medicos"]), set(data["Terceros"])], ('', '', ''))
+        venn3([set(data["Sin Siniestros"]), set(data["Gastos medicos"]), set(data["Terceros"])], 
+              set_labels=('', '', ''),
+              set_colors=('#FF9999', '#99CC99', '#9999FF'))
         
+        # Add legend
         ax.legend(handles=[plt.Rectangle((0,0),1,1,color='#99CC99', alpha=0.5),
                            plt.Rectangle((0,0),1,1,color='#9999FF', alpha=0.5),
                            plt.Rectangle((0,0),1,1,color='#FF9999', alpha=0.5)],
                   labels=['Gastos médicos', 'Daños a terceros', 'Sin Siniestros'],
                   loc='upper left',
                   bbox_to_anchor=(1, 1))
+        
         plt.title("Análisis de Siniestros")
         return fig
+    
+    def plot_heatmap_cobertura_seguro(self):
+        heatmap_data = utils.read_heatmap_coberturas_json()
+        coberturas = heatmap_data["coberturas"]
+        estados = heatmap_data["estados"]
+        data = heatmap_data["data"]
+        max_count = heatmap_data["max_count"]
+        min_count = heatmap_data["min_count"]
+        option = {
+    "title": {"text": "Tipo de cobertura vs Estado del seguro"},
+    "tooltip": {"position": "top"},
+    "grid": {"height": "50%", "top": "10%"},
+    "xAxis": {"type": "category", "data": coberturas},
+    "yAxis": {"type": "category", "data": estados, "splitArea": {"show": True}},
+    "visualMap": {
+        "min": min_count,
+        "max": max_count,
+        "calculable": True,
+        "orient": "horizontal",
+        "left": "center",
+        "bottom": "15%",
+    },
+    "series": [
+        {
+            "name": "Punch Card",
+            "type": "heatmap",
+            "data": data,
+            "label": {"show": True},
+            "emphasis": {
+                "itemStyle": {"shadowBlur": 10, "shadowColor": "rgba(0, 0, 0, 0.5)"}
+            },
+        }
+    ],
+}   
+        return option
+
         
     
 
