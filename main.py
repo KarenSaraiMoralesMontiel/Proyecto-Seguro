@@ -12,8 +12,7 @@ from streamlit_echarts import JsCode
 import matplotlib.pylab as plt
 from pyecharts import options as opts
 from pyecharts.charts import Bar  
-from pprint import pprint
-from matplotlib_venn import venn2, venn3         
+from matplotlib_venn import venn2        
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
