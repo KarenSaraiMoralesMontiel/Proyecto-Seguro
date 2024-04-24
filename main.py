@@ -163,9 +163,9 @@ class StreamlitApp():
                'Mazda 3', 
                'Subaru Impreza']
         
-        
-        raw_data = utils.read_valor_asegurado_promedio()
-        
+        dict = utils.read_valor_asegurado_promedio()
+        raw_data = dict["data"]
+        min_insurance_value = int(dict["min"])
         datasetWithFilters = [
         {
         "id": f"dataset_{car}",
@@ -214,7 +214,7 @@ class StreamlitApp():
         "title": {"text": "Valor Asegurado"},
         "tooltip": {"order": "valueDesc", "trigger": "axis"},
         "xAxis": {"type": "category", "nameLocation": "middle"},
-        "yAxis": {"name": "Insurance Value"},
+        "yAxis": {"name": "Insurance Value", "min":min_insurance_value},
         "grid": {"right": 140},
         "series": seriesList,
     }

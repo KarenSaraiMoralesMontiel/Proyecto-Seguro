@@ -72,6 +72,7 @@ class Generador_Datos():
         """
         utils.write_insurance_data(self.df)
         utils.write_valor_asegurado_promedio()
+        utils.write_siniestros_json()
         
 
 data_generator = Generador_Datos()

@@ -66,14 +66,21 @@ def write_valor_asegurado_promedio():
     valor_asegurado_promedio = insurance_data_df.groupby(['Modelo del coche', "Año del coche"])['Valor asegurado'].mean().reset_index().sort_values("Año del coche")
     columns = ["Car Model", "Year" , "Insurance Value"]
     data = [columns]
+    min_value = 80000
 
 # Iterate through each row of the DataFrame and append it to the data list
     for index, row in valor_asegurado_promedio.iterrows():
         data.append(row.tolist())
-
+        if min_value > row[2]:
+            min_value = row[2]
+    min_value = ((min_value // 1000) *1000) - 1000
+    json_file_dict = {
+        "min" : min_value,
+        "data" : data
+    }
 # Write the JSON data to a file
     with open(file_path, 'w') as json_file:
-        json.dump(data, json_file)
+        json.dump(json_file_dict, json_file)
 
 def apply_siniestros(gastos_medico, daños_terceros):
     if (gastos_medico == 1 or daños_terceros == 1):
