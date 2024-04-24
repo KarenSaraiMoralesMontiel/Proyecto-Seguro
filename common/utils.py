@@ -12,7 +12,6 @@ import joblib
 import importlib.util
 from . import constants
 import json
-from pprint import pprint
 
 
 def read_insurance_data():
