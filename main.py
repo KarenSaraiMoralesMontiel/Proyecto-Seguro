@@ -11,7 +11,9 @@ from streamlit_echarts import st_pyecharts,st_echarts
 from streamlit_echarts import JsCode
 import matplotlib.pylab as plt
 from pyecharts import options as opts
-from pyecharts.charts import Bar
+from pyecharts.charts import Bar  
+from pprint import pprint
+from matplotlib_venn import venn2, venn3         
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
@@ -60,6 +62,12 @@ class StreamlitApp():
 
         option = self.line_race_valor_asegurado()
         st_echarts(options=option, height="600px")
+        
+        #json_data = utils.read_siniestros_json()
+        venn_diagram = self.plot_venn_diagram()
+        st.pyplot(venn_diagram)
+        
+        
     def transform_data(self, input_data):
         try:
             data = pd.DataFrame(input_data)
@@ -212,7 +220,19 @@ class StreamlitApp():
         "series": seriesList,
     }
         return option
-
+    
+    def plot_venn_diagram(self):
+        # Load data from JSON
+        data = utils.read_siniestros_json()
+        
+        # Create figure and axis
+        fig, ax = plt.subplots()
+        ax.set_title('Distribución de Siniestros')
+        
+        # Create Venn diagram
+        venn2([set(data["Gastos medicos"]), set(data["Terceros"])], ("Gastos médicos", "Daños a terceros"))
+        
+        return fig
         
     
 

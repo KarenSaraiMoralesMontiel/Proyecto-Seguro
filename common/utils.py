@@ -12,6 +12,7 @@ import joblib
 import importlib.util
 from . import constants
 import json
+from pprint import pprint
 
 
 def read_insurance_data():
@@ -60,6 +61,7 @@ def read_valor_asegurado_promedio():
     return raw_data
 
 def write_valor_asegurado_promedio():
+    file_path = os.path.join(os.path.dirname(__file__), '..', constants.VALOR_ASEGURADO_JSON_PATH)
     insurance_data_df = read_insurance_data()
     valor_asegurado_promedio = insurance_data_df.groupby(['Modelo del coche', "Año del coche"])['Valor asegurado'].mean().reset_index().sort_values("Año del coche")
     columns = ["Car Model", "Year" , "Insurance Value"]
@@ -70,7 +72,7 @@ def write_valor_asegurado_promedio():
         data.append(row.tolist())
 
 # Write the JSON data to a file
-    with open('data_with_columns.json', 'w') as json_file:
+    with open(file_path, 'w') as json_file:
         json.dump(data, json_file)
 
 def apply_siniestros(gastos_medico, daños_terceros):
@@ -98,3 +100,28 @@ def change_month(month):
       12:"Diciembre"
   }
   return months[int(month)]
+
+def read_siniestros_json():
+    file_path = os.path.join(os.path.dirname(__file__), '..', constants.SINIESTROS_VENN_DATA_JSON_PATH)
+    with open(file_path, "r") as file:
+        siniestros_venn = json.load(file)
+    return siniestros_venn
+
+def write_siniestros_json():
+    file_path = os.path.join(os.path.dirname(__file__), '..', constants.SINIESTROS_VENN_DATA_JSON_PATH)
+    insurance_data_df = read_insurance_data()
+    
+    polizas_medicos = insurance_data_df.loc[insurance_data_df['Gastos médicos'] == 1, 'Número de póliza']
+    polizas_terceros = insurance_data_df.loc[insurance_data_df['Daños a terceros'] == 1, 'Número de póliza']
+    
+    data = {
+        "Gastos medicos": list(polizas_medicos),
+        "Terceros" : list(polizas_terceros)
+    }
+    with open(file_path, 'w') as json_file:
+        json.dump(data, json_file)
+
+write_siniestros_json()
+    
+
+    

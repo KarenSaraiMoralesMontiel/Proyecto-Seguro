@@ -12,7 +12,7 @@ import random
 from common import utils
 
 class Generador_Datos():
-    def __init__(self, n_cases = 1000):
+    def __init__(self, n_cases = 10000):
         random.seed(42)
         #Número de casos
         self.n_cases= n_cases
