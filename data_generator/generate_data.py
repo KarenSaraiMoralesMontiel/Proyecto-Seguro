@@ -29,11 +29,11 @@ class Generador_Datos():
         self.car_probabilities = [0.2, 0.15, 0.12, 0.1, 0.08, 0.1, 0.08, 0.07, 0.05, 0.05]
     
     def generate_random_date(self, start_date=datetime.datetime(2020, 1, 1), end_date=datetime.datetime(2025, 12, 31)) -> datetime.datetime:
-        """_summary_
+        """Genera fechas random en un rango
 
         Args:
-            start_date (_type_, optional): Fecha de minima de inicio. Defaults to datetime.datetime(2020, 1, 1).
-            end_date (_type_, optional): Fecha máxima de inicio. Defaults to datetime.datetime(2025, 12, 31).
+            start_date (datetime.datetime, optional): Fecha de minima de inicio. Defaults to datetime.datetime(2020, 1, 1).
+            end_date (datetime.datetime, optional): Fecha máxima de inicio. Defaults to datetime.datetime(2025, 12, 31).
 
         Returns:
             datetime.datetime: Fecha random de inicio
@@ -43,7 +43,7 @@ class Generador_Datos():
         return random_day
     
     def generate_data(self):
-        """Genera los datos y los almacena en 
+        """Genera los datos y los almacena en insurance data
         """
         data = {}
         data['Número de póliza'] = [f"P00000{i}" for i in range(self.n_cases)]
