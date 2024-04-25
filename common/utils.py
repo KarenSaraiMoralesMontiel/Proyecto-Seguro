@@ -14,6 +14,8 @@ from . import constants
 import json
 
 
+
+
 def read_insurance_data():
     """Read data from a file in the common folder."""
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.INSURANCE_DATA_PATH)
@@ -80,32 +82,6 @@ def write_valor_asegurado_promedio():
 # Write the JSON data to a file
     with open(file_path, 'w') as json_file:
         json.dump(json_file_dict, json_file)
-
-def apply_siniestros(gastos_medico, daños_terceros):
-    if (gastos_medico == 1 or daños_terceros == 1):
-        return "yes"
-    return "no"
-
-def apply_month(fecha):
-    month = str(fecha).split("-")[1]
-    return month
-
-def change_month(month):
-  months = {
-      1: "Enero",
-      2: "Febrero",
-      3: "Marzo",
-      4: "Abril",
-      5: "Mayo",
-      6: "Junio",
-      7: "Julio",
-      8: "Agosto",
-      9: "Septiembre",
-      10: "Octubre",
-      11: "Noviembre",
-      12:"Diciembre"
-  }
-  return months[int(month)]
 
 def read_siniestros_json():
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.SINIESTROS_VENN_DATA_JSON_PATH)
@@ -177,3 +153,29 @@ def read_heatmap_coberturas_json():
     with open(file_path, "r") as file:
         heatmap_coberturas = json.load(file)
     return heatmap_coberturas
+
+def apply_siniestros(gastos_medico, daños_terceros):
+    if (gastos_medico == 1 or daños_terceros == 1):
+        return "yes"
+    return "no"
+
+def apply_month(fecha):
+    month = str(fecha).split("-")[1]
+    return month
+
+def change_month(month):
+  months = {
+      1: "Enero",
+      2: "Febrero",
+      3: "Marzo",
+      4: "Abril",
+      5: "Mayo",
+      6: "Junio",
+      7: "Julio",
+      8: "Agosto",
+      9: "Septiembre",
+      10: "Octubre",
+      11: "Noviembre",
+      12:"Diciembre"
+  }
+  return months[int(month)]

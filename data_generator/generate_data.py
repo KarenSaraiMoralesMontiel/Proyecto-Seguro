@@ -79,3 +79,5 @@ class Generador_Datos():
 """data_generator = Generador_Datos()
 data_generator.generate_data()
 data_generator.save_data()"""
+
+utils.write_fechas_json()

@@ -13,7 +13,6 @@ import matplotlib.pylab as plt
 from pyecharts import options as opts
 from pyecharts.charts import Bar  
 from matplotlib_venn import venn3
-from pprint import pprint    
 
 class StreamlitApp():
     def __init__(self, insurance_data_df):
@@ -66,9 +65,12 @@ class StreamlitApp():
         #json_data = utils.read_siniestros_json()
         venn_diagram = self.plot_venn_diagram()
         st.pyplot(venn_diagram)
+        
         heatmap_options = self.plot_heatmap_cobertura_seguro()
         st_echarts(options=heatmap_options, height="600px")
         
+        policies_options = self.policies_analysis()
+        st_echarts(policies_options, height="600px")
         
     def transform_data(self, input_data):
         try:
@@ -281,8 +283,49 @@ class StreamlitApp():
 }   
         return option
 
+    def policies_analysis(self):
+        df = self.insurance_data_df
+        df['Fecha de inicio'] = pd.to_datetime(df['Fecha de inicio'])
+        df['Fecha de vencimiento'] = pd.to_datetime(df['Fecha de vencimiento'])
+
+        # Extract year-month from the 'Fecha de inicio' and 'Fecha de vencimiento' columns and convert to string
+        df['Inicio Year-Month'] = df['Fecha de inicio'].dt.strftime('%Y-%m')
+        df['Vencimiento Year-Month'] = df['Fecha de vencimiento'].dt.strftime('%Y-%m')
+
+        # Group data by year-month and count the number of policies for 'Fecha de inicio'
+        inicio_policy_count = df.groupby('Inicio Year-Month').size().reset_index(name='Inicio Count')
+
+        # Group data by year-month and count the number of policies for 'Fecha de vencimiento'
+        vencimiento_policy_count = df.groupby('Vencimiento Year-Month').size().reset_index(name='Vencimiento Count')
+
+        # Create ECharts options with different colors for each series
+        options = {
+    "title": {"text": "Number of Policies by Year-Month"},
+    "xAxis": {"type": "category", "data": inicio_policy_count['Inicio Year-Month'].tolist()},
+    "yAxis": {"type": "value"},
+    "tooltip": {
+        "trigger": "item",
+        "formatter": "Fecha de {a} ({b})<br />Count: <strong>{c}</strong>",
+    },  # Customize tooltip format to show series name and count
+    "series": [
+        {
+            "name": "inicio",
+            "type": "line",
+            "data": inicio_policy_count[['Inicio Year-Month', 'Inicio Count']].values.tolist(),
+            "itemStyle": {"color": "#4682B4"},  # Set color for line of 'Fecha de inicio'
+            "connectNulls": True,  # Connect null values with lines
+        },
+        {
+            "name": "vencimiento",
+            "type": "line",
+            "data": vencimiento_policy_count[['Vencimiento Year-Month', 'Vencimiento Count']].values.tolist(),
+            "itemStyle": {"color": "#FFA500"},  # Set color for line of 'Fecha de vencimiento'
+            "connectNulls": True,  # Connect null values with lines
+        },
+    ],
+}
+        return options
         
-    
 
 sales_df = utils.read_insurance_data()
     
