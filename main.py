@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 from streamlit_echarts import st_pyecharts,st_echarts
 from streamlit_echarts import JsCode
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 from pyecharts import options as opts
 from pyecharts.charts import Bar  
 from matplotlib_venn import venn3
@@ -22,10 +22,12 @@ class StreamlitApp():
         
     
     def build_app(self):
+        """Creates the Streamlit App
+        """
         st.title('Predicción de Gastos Médicos')
         st.write('Ingrese los detalles del seguro para predecir si habrá gastos médicos.')
 
-# Formulario de entrada de datos
+        # Formulario de entrada de datos
         form = st.form(key='insurance_form')
         coverage_type = form.selectbox('Tipo de cobertura', self.insurance_data_df['Tipo de cobertura'].unique())
         car_model = form.selectbox('Modelo del coche', self.insurance_data_df['Modelo del coche'].unique())
@@ -35,6 +37,8 @@ class StreamlitApp():
         insurance_state = form.selectbox('Estado del seguro', ['Al día', 'Vencido'])
         third_party_damage = form.select_slider('Daños a terceros', options=[0, 1])
         submit_button = form.form_submit_button(label='Predecir')
+        
+        #Si se presiona el botón
         if submit_button:
                 input = {
                         "Tipo de cobertura" : [coverage_type],
@@ -52,27 +56,46 @@ class StreamlitApp():
                 
                 # Write the message with Markdown formatting for centering and increasing font size
                 st.write(f"<div style='text-align: center; font-size: 24px;'>{prediction_message}</div>", unsafe_allow_html=True)
-                
+         
+        #Hace un bar chart con los siniestros por coche       
         coches_siniestros_bar = self.siniestros_modelo_carro()
         st_pyecharts(coches_siniestros_bar, key="Coches Siniestros")
         
+        #Hace un bar chart con los siniestors por mes
         mes_siniestros_bar = self.siniestros_por_mes()
         st_pyecharts(mes_siniestros_bar, key="Mes Siniestros")
 
+        #Hace un scatter chart del valor asegurado promedio
+        # de todos los coches a lo largo del año del coche
         valor_option = self.line_race_valor_asegurado()
         st_echarts(options=valor_option, height="600px")
         
-        #json_data = utils.read_siniestros_json()
+        #Hace un diagrama de venn de cuantas polizas
+        #tuvierons siniestros (gastos médicos y daños a terceros)
+        #y los que no tuvieron
         venn_diagram = self.plot_venn_diagram()
         st.pyplot(venn_diagram)
         
+        #Hace un heatmap del count acorde a los estados
+        #de las pólizas y que tipo de cobertura tiene
         heatmap_options = self.plot_heatmap_cobertura_seguro()
         st_echarts(options=heatmap_options, height="600px")
         
+        #Hace análisis de cuantas polizas se iniciaron
+        # y cuantas se vencieron a lo largo de los años
         policies_options = self.policies_analysis()
         st_echarts(policies_options, height="600px")
         
     def transform_data(self, input_data):
+        """Transforma los datos para hacer la predicción del modelo
+
+        Args:
+            input_data (dict): Los valores
+
+        Returns:
+            pd.DataFrame: Devuelve el dataframe para hacer la predicción,
+            si no puede transforma devuelve None
+        """
         try:
             data = pd.DataFrame(input_data)
             data_encoded = pd.get_dummies(data)
@@ -95,25 +118,41 @@ class StreamlitApp():
             print("An error occurred during data transformation:", e)
             return None
     
-    def message(self, prediction):
+    def message(self, prediction) -> str:
+        """Devuelve el mensage de la predicción
+
+        Args:
+            prediction (int): Valor 0,1
+
+        Returns:
+            str: Mensaje de la predicción
+        """
         if (prediction):
             return "Si, van a haber gastos médicos"
         return "No, no van a haber gastos médictos"
     
     def siniestros_modelo_carro(self) -> Bar:
+        """Análisis de siniestros por el modelo del coche
 
+        Returns:
+            Bar: Bar PyEchart con el count de sineistros
+            por modelo del coche
+        """
 
+        #Transforma los datos
         coches_siniestros = self.insurance_data_df
-
         coches_siniestros["Siniestros"] = coches_siniestros[["Gastos médicos", "Daños a terceros"]].apply(lambda row: utils.apply_siniestros(row["Gastos médicos"], row["Daños a terceros"]), axis=1)
         
-
+        #Saca el count de los coches de sinietros
         coches_siniestros = pd.crosstab(index=coches_siniestros['Siniestros'],
                                     columns=coches_siniestros['Modelo del coche'])
         coches_siniestros = coches_siniestros.T.sort_values('yes', ascending=False)
+        
+        #Saca x axis y y axis
         x_axis  = list(coches_siniestros.index)
         y_axis = list(coches_siniestros.yes)
         
+        #Hace Bar Chart
         b = (
             Bar()
             .add_xaxis(x_axis)
@@ -128,18 +167,24 @@ class StreamlitApp():
         return b
     
     def siniestros_por_mes(self) -> Bar:
-        mes_siniestros = self.insurance_data_df.copy()
+        """Análisis de siniestros por mes
 
-        # Create a new column "Siniestros" by applying a custom function to "Gastos médicos" and "Daños a terceros" columns
+        Returns:
+            Bar: Bar PyEchart con el count de los siniestros por mes
+        """
+        
+        mes_siniestros = self.insurance_data_df.copy()
+        
+        # Cree una nueva columna "Siniestros" aplicando una función personalizada a las columnas "Gastos médicos" y "Daños a terceros"
         mes_siniestros["Siniestros"] = mes_siniestros[["Gastos médicos", "Daños a terceros"]].apply(lambda row: utils.apply_siniestros(row["Gastos médicos"], row["Daños a terceros"]), axis=1)
 
-        # Extract month information from "Fecha de inicio" column and create a new column "Mes Siniestros"
+        #Extraer información del mes de la columna "Fecha de inicio" y crear una nueva columna "Mes Siniestros"
         mes_siniestros["Mes Siniestros"] = pd.to_datetime(mes_siniestros["Fecha de inicio"]).dt.month
 
-        # Compute a cross-tabulation of "Mes Siniestros" and "Siniestros" to count occurrences of different types of claims for each month
+        # Calcule una tabulación cruzada de "Mes Siniestros" y "Siniestros" para contar la ocurrencia de diferentes tipos de reclamos para cada mes.
         mes_siniestros = pd.crosstab(index=mes_siniestros['Mes Siniestros'], columns=mes_siniestros['Siniestros']).sort_index()
 
-        # Map month names using the `utils.change_month` function (assuming it's defined correctly)
+        # Asigne nombres de meses usando la función `utils.change_month` (suponiendo que esté definida correctamente)
         mes_siniestros.index = mes_siniestros.index.map(utils.change_month)
         x_axis = list(mes_siniestros.index)
         y_axis = list(mes_siniestros.yes)
@@ -157,6 +202,14 @@ class StreamlitApp():
         return b
         
     def line_race_valor_asegurado(self):
+        """Devuelve las opciones para hacer
+        la gráfica del valor asegurado promedio 
+        por coche acorde al Año del Coche
+
+        Returns:
+            dict: Opciones para hacer la gráfica
+        """
+        
         cars = ['Toyota Corolla', 
                 'Honda Civic', 
                 'Ford Focus', 
@@ -168,9 +221,12 @@ class StreamlitApp():
                'Mazda 3', 
                'Subaru Impreza']
         
+        #Saca los valores
         dict = utils.read_valor_asegurado_promedio()
         raw_data = dict["data"]
         min_insurance_value = int(dict["min"])
+        
+        #el dataset
         datasetWithFilters = [
         {
         "id": f"dataset_{car}",
@@ -188,6 +244,7 @@ class StreamlitApp():
         for car in cars
         ]
 
+        #Las series para hacer la gráfica
         seriesList = [
         {
         "type": "line",
@@ -213,6 +270,7 @@ class StreamlitApp():
         for car in cars
         ]
 
+        #Opciones
         option = {
         "animationDuration": 10000,
         "dataset": [{"id": "dataset_raw", "source": raw_data}] + datasetWithFilters,
@@ -222,10 +280,16 @@ class StreamlitApp():
         "yAxis": {"name": "Insurance Value", "min":min_insurance_value},
         "grid": {"right": 140},
         "series": seriesList,
-    }
+        }
         return option
     
-    def plot_venn_diagram(self):
+    def plot_venn_diagram(self) ->plt:
+        """Diagrama de venn de las 
+           pólizas de seguro acorde a siniestrs
+
+        Returns:
+            plt: Diagrama de Veen de Gastos médicos, Daños a terceros y Sin Siniestros
+        """
         # Load data from JSON
         data = utils.read_siniestros_json()
         
@@ -248,42 +312,59 @@ class StreamlitApp():
         plt.title("Análisis de Siniestros")
         return fig
     
-    def plot_heatmap_cobertura_seguro(self):
+    def plot_heatmap_cobertura_seguro(self) -> dict:
+        """Devuelve las opciones para hacer el heatmap
+        Estado de Seguro vs Tipo de Cobertura
+
+        Returns:
+            dict: Opciones para hacer el heatmap
+        """
+        
+        #Consig los datos
         heatmap_data = utils.read_heatmap_coberturas_json()
+        
+        #Asigna los valores
         coberturas = heatmap_data["coberturas"]
         estados = heatmap_data["estados"]
         data = heatmap_data["data"]
         max_count = heatmap_data["max_count"]
         min_count = heatmap_data["min_count"]
+        
+        #Construye las opciones
         option = {
-    "title": {"text": "Tipo de cobertura vs Estado del seguro"},
-    "tooltip": {"position": "top"},
-    "grid": {"height": "50%", "top": "10%"},
-    "xAxis": {"type": "category", "data": coberturas},
-    "yAxis": {"type": "category", "data": estados, "splitArea": {"show": True}},
-    "visualMap": {
-        "min": min_count,
-        "max": max_count,
-        "calculable": True,
-        "orient": "horizontal",
-        "left": "center",
-        "bottom": "15%",
-    },
-    "series": [
-        {
-            "name": "Punch Card",
-            "type": "heatmap",
-            "data": data,
-            "label": {"show": True},
-            "emphasis": {
-                "itemStyle": {"shadowBlur": 10, "shadowColor": "rgba(0, 0, 0, 0.5)"}
+            "title": {"text": "Tipo de cobertura vs Estado del seguro"},
+            "tooltip": {"position": "top"},
+            "grid": {"height": "50%", "top": "10%"},
+            "xAxis": {"type": "category", "data": coberturas},
+            "yAxis": {"type": "category", "data": estados, "splitArea": {"show": True}},
+            "visualMap": {
+                "min": min_count,
+                "max": max_count,
+                "calculable": True,
+                "orient": "horizontal",
+                "left": "center",
+                "bottom": "15%",
             },
-        }
-    ],
-}   
+            "series": [
+                {
+                "name": "Punch Card",
+                "type": "heatmap",
+                "data": data,
+                "label": {"show": True},
+                "emphasis": {
+                    "itemStyle": {"shadowBlur": 10, "shadowColor": "rgba(0, 0, 0, 0.5)"}
+                },
+                }
+            ],
+        }   
         return option
 
-    def policies_analysis(self):
+    def policies_analysis(self) -> dict:
+        """Análisis del número de pólizas en inicio, vencimiento
+
+        Returns:
+            dict: Opciones para gráficar la Echart
+        """
         df = self.insurance_data_df
         df['Fecha de inicio'] = pd.to_datetime(df['Fecha de inicio'])
         df['Fecha de vencimiento'] = pd.to_datetime(df['Fecha de vencimiento'])
@@ -300,30 +381,30 @@ class StreamlitApp():
 
         # Create ECharts options with different colors for each series
         options = {
-    "title": {"text": "Number of Policies by Year-Month"},
-    "xAxis": {"type": "category", "data": inicio_policy_count['Inicio Year-Month'].tolist()},
-    "yAxis": {"type": "value"},
-    "tooltip": {
-        "trigger": "item",
-        "formatter": "Fecha de {a} ({b})<br />Count: <strong>{c}</strong>",
-    },  # Customize tooltip format to show series name and count
-    "series": [
-        {
-            "name": "inicio",
-            "type": "line",
-            "data": inicio_policy_count[['Inicio Year-Month', 'Inicio Count']].values.tolist(),
-            "itemStyle": {"color": "#4682B4"},  # Set color for line of 'Fecha de inicio'
-            "connectNulls": True,  # Connect null values with lines
-        },
-        {
-            "name": "vencimiento",
-            "type": "line",
-            "data": vencimiento_policy_count[['Vencimiento Year-Month', 'Vencimiento Count']].values.tolist(),
-            "itemStyle": {"color": "#FFA500"},  # Set color for line of 'Fecha de vencimiento'
-            "connectNulls": True,  # Connect null values with lines
-        },
-    ],
-}
+            "title": {"text": "Number of Policies by Year-Month"},
+            "xAxis": {"type": "category", "data": inicio_policy_count['Inicio Year-Month'].tolist()},
+            "yAxis": {"type": "value"},
+            "tooltip": {
+            "trigger": "item",
+            "formatter": "Fecha de {a} ({b})<br />Count: <strong>{c}</strong>",
+            },  # Customize tooltip format to show series name and count
+            "series": [
+            {
+                "name": "inicio",
+                "type": "line",
+                "data": inicio_policy_count[['Inicio Year-Month', 'Inicio Count']].values.tolist(),
+                "itemStyle": {"color": "#4682B4"},  # Set color for line of 'Fecha de inicio'
+                "connectNulls": True,  # Connect null values with lines
+            },
+            {
+                "name": "vencimiento",
+                "type": "line",
+                "data": vencimiento_policy_count[['Vencimiento Year-Month', 'Vencimiento Count']].values.tolist(),
+                "itemStyle": {"color": "#FFA500"},  # Set color for line of 'Fecha de vencimiento'
+                "connectNulls": True,  # Connect null values with lines
+            },
+            ],
+        }
         return options
         
 
