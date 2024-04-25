@@ -85,6 +85,7 @@ def write_model_data(encoded_columns : list, accuracy: float):
     """
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.MODEL_DATA_PATH)
     with open(file_path, 'w', encoding='utf-8') as file:
+        
     # Write the array to the file as a Python variable assignment
         file.write('model_data = {')
         file.write(f'"encoded_columns" : {encoded_columns},\n')
@@ -112,13 +113,17 @@ def write_valor_asegurado_promedio():
     #Hace el file_path
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.VALOR_ASEGURADO_JSON_PATH)
     insurance_data_df = read_insurance_data()
+    
     #Agrupa los valores acorde al Modelo del coche, Año del coche y saca el promedio del valor asegurado y 
     #ordena los valores acorde al Año del coche
     valor_asegurado_promedio = insurance_data_df.groupby(['Modelo del coche', "Año del coche"])['Valor asegurado'].mean().reset_index().sort_values("Año del coche")
+    
     #Columnas de los valores
     columns = ["Car Model", "Year" , "Insurance Value"]
+    
     #Se guarda las columnas en una variable llamada data
     data = [columns]
+    
     #Ponemos un min_value grande para encontrar el valor mínimo para la 
     #gráfica
     min_value = 100000
@@ -130,13 +135,17 @@ def write_valor_asegurado_promedio():
         #Busca el valor mínimo
         if min_value > row[2]:
             min_value = row[2]
+            
     #Saca el siguiente valor minimo 1000
     min_value = ((min_value // 1000) *1000) - 1000
+    
     #Asigna los valos en el diccionario
+    
     json_file_dict = {
         "min" : min_value,
         "data" : data
     }
+    
     # Escribe los valores al archivo JSON
     with open(file_path, 'w') as json_file:
         json.dump(json_file_dict, json_file)
@@ -150,6 +159,7 @@ def read_siniestros_json() -> dict:
         y "Daños a terceros"
     """
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.SINIESTROS_VENN_DATA_JSON_PATH)
+    
     with open(file_path, "r") as file:
         siniestros_venn = json.load(file)
     return siniestros_venn
@@ -161,6 +171,7 @@ def write_siniestros_json():
     """
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.SINIESTROS_VENN_DATA_JSON_PATH)
     insurance_data_df = read_insurance_data()
+    
     #Saca las polizas
     poliza_sin_siniestros = insurance_data_df.loc[(insurance_data_df['Gastos médicos'] == 0) & (insurance_data_df['Daños a terceros'] == 0), 'Número de póliza']
     polizas_medicos = insurance_data_df.loc[insurance_data_df['Gastos médicos'] == 1, 'Número de póliza']
@@ -172,6 +183,7 @@ def write_siniestros_json():
         "Gastos medicos": list(polizas_medicos),
         "Terceros" : list(polizas_terceros)
     }
+    
     #Los guarda en el archivo
     with open(file_path, 'w') as json_file:
         json.dump(data, json_file)
@@ -181,11 +193,13 @@ def write_heatmap_coberturas_json():
     """
     file_path = os.path.join(os.path.dirname(__file__), '..', constants.HEATMAP_COBERTURAS_SEGUROS_JSON)
     insurance_data_df = read_insurance_data()
+    
     #Saca los valores
     df_2dhist = pd.DataFrame({
     x_label: grp['Estado del seguro'].value_counts()
     for x_label, grp in insurance_data_df.groupby('Tipo de cobertura')
-})
+    })
+    
     #Obtiene listas con los estados y las coberturas
     estados = list(df_2dhist.index)
     coberturas = list(df_2dhist.columns)
@@ -193,10 +207,13 @@ def write_heatmap_coberturas_json():
     #Inicializa los valores min_count, max_count (para el mapa visual)
     min_count = 10000
     max_count = 0
+    
     #Lista con los valores, el heamap va de abajo hacia arriba y de izquierda a deracha
     data = []
+    
     #Inicializa el valor x
     x = 0
+    
     #Va por cada línea del dataframe
     for _, row in reversed(list(df_2dhist.iterrows())):
         #Inicializa un valor y
@@ -215,6 +232,7 @@ def write_heatmap_coberturas_json():
             y += 1
         #El contador x suma
         x += 1
+        
     #Transforma el valor máximo y minimo para el
     #mapa visual
     max_count = (max_count // 100) *100 + 100
@@ -228,6 +246,7 @@ def write_heatmap_coberturas_json():
         "coberturas" : coberturas,
         "data": data
     }
+    
     #Guarda el diccionario
     with open(file_path, 'w', encoding="utf-8") as json_file:
         json.dump(json_data, json_file, ensure_ascii=False)

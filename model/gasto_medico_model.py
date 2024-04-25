@@ -19,30 +19,44 @@ class Gastos_Medico_Model():
         self.accuracy = None
         
     def modelar(self):
+        """Hace el modelo de gastos médicos
+        """
         df_encoded = pd.get_dummies(self.insurance_df.drop([ 'Número de póliza', 'Fecha de inicio', 'Fecha de vencimiento'], axis=1))
         
-# División de datos en entrenamiento y prueba
+#        División de datos en entrenamiento y prueba
         X = df_encoded.drop(columns=['Gastos médicos'], axis=1)
         y = df_encoded['Gastos médicos']
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
         self.encoded_columns = list(X.columns)
 
-# Entrenamiento del modelo
+        # Entrenamiento del modelo
         self.model = RandomForestClassifier(n_estimators=100, random_state=42)
         self.model.fit(X_train, y_train)
 
-# Evaluación del modelo
+        # Evaluación del modelo
         y_pred = self.model.predict(X_test)
         self.accuracy = accuracy_score(y_test, y_pred)
         
     
     
     def save_model(self):
+        """Guarda el model y los datos del modelo
+        """
         utils.write_model_data(self.encoded_columns, self.accuracy)
         utils.write_model(self.model)
 
     def get_accuracy(self):
+        """Devuelve la exactitud del modelo
+
+        Returns:
+            float: Exactitud del modelo
+        """
         return self.accuracy
     
     def get_model(self):
+        """Devuelve el modelo
+
+        Returns:
+            model: Modelo de gastos médicos
+        """
         return self.model
