@@ -20,7 +20,11 @@ Una vez que acceda a la aplicación, podrá interactuar con ella siguiendo los s
 3. **Explora Análisis**: Independientemente de la predicción se puede ver análisis de los datos como Siniestros por coche, Siniestros por mes, Valor Asegurado Promedio por Modelo del Coche acorde al Año del Coche, Análisis de Siniestros con un diagrama de Venn, un heatmap con la cuneta del Tipo de cobertura vs Estado del Seguro y el número de pólizas que iniciaro y se vencieron por Año-Mes.
 ## Screenshots
 
+**Predicción Gastos Médicos**
+![prediccion](https://github.com/KarenSaraiMoralesMontiel/Proyecto-Seguro/assets/62195892/65f853db-d488-4b22-aae9-b382209b38c7)
 
+**Análisis De Datos**
+![analisis](https://github.com/KarenSaraiMoralesMontiel/Proyecto-Seguro/assets/62195892/8ff9e093-fcfd-48c3-9b89-d844080353d4)
 
 ## Acknowledgments
 
