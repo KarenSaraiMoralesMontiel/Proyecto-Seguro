@@ -327,7 +327,7 @@ class StreamlitApp():
         return options
         
 
-sales_df = utils.read_insurance_data()
+insurance_data_df = utils.read_insurance_data()
     
-app = StreamlitApp(sales_df)
+app = StreamlitApp(insurance_data_df)
 app.build_app()
